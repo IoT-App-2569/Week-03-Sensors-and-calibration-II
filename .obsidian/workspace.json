@@ -35,8 +35,7 @@
               "title": "Report"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,10 +219,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c431a08a1a12180c",
+  "active": "b2ec824820799fd5",
   "lastOpenFiles": [
-    "67030195/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
     "67030195/Report.md",
+    "67030195/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
     "สกรีนช็อต 2026-07-13 131421.png",
     "2026-07-13.md",
     "Untitled.canvas",
