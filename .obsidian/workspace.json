@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03.md",
+                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03"
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
             }
           },
           {
@@ -234,12 +234,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "71230346fe056fc1",
+  "active": "b58ff0fb6801e2fe",
   "lastOpenFiles": [
-    "67030351",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-    "Week-03.md",
     "67030351/Report.md",
+    "Week-03.md",
+    "README.md",
+    "67030351",
     "Pasted image 20260713195016.png",
     "Pasted image 20260713194853.png",
     "Week-03-Lab-LDR-and-calibration/build/log/idf_py_stdout_output_14395",
@@ -251,9 +252,7 @@
     "Week-03-Lab-LDR-and-calibration/build/log/idf_py_stdout_output_14034",
     "Week-03-Lab-LDR-and-calibration/build/log/idf_py_stderr_output_14034",
     "Week-03-Lab-LDR-and-calibration/build/log/idf_py_stdout_output_13032",
-    "Week-03-Lab-LDR-and-calibration/build/log/idf_py_stderr_output_13032",
     "Week-03-01_Physical_World.md",
-    "README.md",
     "Week-03-02-Digital-World.md",
     "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03-04-Sensor-vs-Transducer.md",
