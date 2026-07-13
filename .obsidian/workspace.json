@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "67030195/Report.md",
+                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Report"
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 200
   },
   "right": {
     "id": "177091d43df982aa",
@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,16 +207,16 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
-    "Week-03.md",
     "67030195/Report.md",
+    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
+    "Week-03.md",
     "Untitled.md",
     "67030195",
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
-    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "README.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
