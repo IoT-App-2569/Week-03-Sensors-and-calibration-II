@@ -1,0 +1,168 @@
+Command: /Users/petchauisui/.espressif/tools/python/v6.0.2/venv/bin/python /Users/petchauisui/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/build/LED_Blink.elf /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/build/bootloader/bootloader.elf -m '/Users/petchauisui/.espressif/tools/python/v6.0.2/venv/bin/python' '/Users/petchauisui/.espressif/v6.0.2/esp-idf/tools/idf.py'
+�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x�xx�x�x ) heap_init: At 3FFAE6E0 l�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15820
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 13 2026 11:07:24[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=095bch ( 38332) map[0m
+[0;32mI (100) esp_image: segment 1: paddr=000195e4 vaddr=3ffb0000 size=02e70h ( 11888) load[0m
+[0;32mI (105) esp_image: segment 2: paddr=0001c45c vaddr=40080000 size=03bbch ( 15292) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=10f04h ( 69380) map[0m
+[0;32mI (136) esp_image: segment 4: paddr=00030f2c vaddr=40083bbc size=0920ch ( 37388) load[0m
+[0;32mI (152) esp_image: segment 5: paddr=0003a140 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (159) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (159) boot: Disabling RNG early entropy source...[0m
+[0;32mI (170) cpu_start: Multicore app[0m
+[0;32mI (178) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (178) cpu_start: Pro cpu start user code[0m
+[0;32mI (178) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (180) app_init: Application information:[0m
+[0;32mI (184) app_init: Project name:     LED_Blink[0m
+[0;32mI (188) app_init: App version:      7678bdb-dirty[0m
+[0;32mI (193) app_init: Compile time:     Jul 13 2026 11:04:52[0m
+[0;32mI (198) app_init: ELF file SHA256:  d97730edb...[0m
+[0;32mI (202) app_init: ESP-IDF:          v6.0.2[0m
+[0;32mI (206) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (210) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (214) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (218) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (224) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (229) heap_init: At 3FFB3818 len 0002C7E8 (177 KiB): DRAM[0m
+[0;32mI (234) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (239) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (245) heap_init: At 4008CDC8 len 00013238 (76 KiB): IRAM[0m
+[0;33mW (252) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (263) spi_flash: detected chip: generic[0m
+[0;32mI (267) spi_flash: flash io: dio[0m
+[0;33mW (270) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (283) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+ADC Raw = 2479, Voltage = 2152 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 2895, Voltage = 2487 mV
+ADC Raw = 1179, Voltage = 1098 mV
+ADC Raw = 496, Voltage = 544 mV
+ADC Raw = 321, Voltage = 402 mV
+ADC Raw = 146, Voltage = 260 mV
+ADC Raw = 17, Voltage = 156 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 314, Voltage = 397 mV
+ADC Raw = 421, Voltage = 483 mV
+ADC Raw = 688, Voltage = 700 mV
+ADC Raw = 905, Voltage = 876 mV
+ADC Raw = 1336, Voltage = 1225 mV
+ADC Raw = 1425, Voltage = 1297 mV
+ADC Raw = 1448, Voltage = 1316 mV
+ADC Raw = 1521, Voltage = 1375 mV
+ADC Raw = 1755, Voltage = 1565 mV
+ADC Raw = 1561, Voltage = 1408 mV
+ADC Raw = 1567, Voltage = 1412 mV
+ADC Raw = 1517, Voltage = 1372 mV
+ADC Raw = 1698, Voltage = 1519 mV
+ADC Raw = 2027, Voltage = 1785 mV
+ADC Raw = 2241, Voltage = 1959 mV
+ADC Raw = 2597, Voltage = 2248 mV
+ADC Raw = 2769, Voltage = 2387 mV
+ADC Raw = 3011, Voltage = 2564 mV
+ADC Raw = 2941, Voltage = 2515 mV
+ADC Raw = 3087, Voltage = 2615 mV
+ADC Raw = 3191, Voltage = 2684 mV
+ADC Raw = 3182, Voltage = 2678 mV
+ADC Raw = 3305, Voltage = 2754 mV
+ADC Raw = 3328, Voltage = 2768 mV
+ADC Raw = 3280, Voltage = 2739 mV
+ADC Raw = 3264, Voltage = 2729 mV
+ADC Raw = 3717, Voltage = 2973 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 3987, Voltage = 3094 mV
+ADC Raw = 1212, Voltage = 1125 mV
+ADC Raw = 499, Voltage = 547 mV
+ADC Raw = 257, Voltage = 350 mV
+ADC Raw = 79, Voltage = 206 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 0, Voltage = 142 mV
+ADC Raw = 184, Voltage = 291 mV
+ADC Raw = 483, Voltage = 534 mV
+ADC Raw = 647, Voltage = 667 mV
+ADC Raw = 951, Voltage = 913 mV
+ADC Raw = 1299, Voltage = 1195 mV
+ADC Raw = 1392, Voltage = 1271 mV
+ADC Raw = 2212, Voltage = 1935 mV
+ADC Raw = 2397, Voltage = 2085 mV
+ADC Raw = 2371, Voltage = 2064 mV
+ADC Raw = 2423, Voltage = 2106 mV
+ADC Raw = 2639, Voltage = 2282 mV
+ADC Raw = 2651, Voltage = 2291 mV
+ADC Raw = 2732, Voltage = 2357 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
+ADC Raw = 4095, Voltage = 3139 mV
