@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6f4a87b9d3a6d3fc",
+        "id": "e5106fee3b835a5e",
         "type": "tabs",
         "children": [
           {
-            "id": "be08d504a70d7700",
+            "id": "ca60f21b3c1ef618",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "ยังไม่ได้ตั้งชื่อ 1.base",
-                "bFile": "ยังไม่ได้ตั้งชื่อ 1.base",
-                "aRef": ""
+                "file": "67030261/Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: ยังไม่ได้ตั้งชื่อ 1.base  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
             }
           }
         ]
@@ -180,7 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,20 +195,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "85788eb0f92ec94b",
+  "active": "ca60f21b3c1ef618",
   "lastOpenFiles": [
+    "Pasted image 20260713115357.png",
+    "Pasted image 20260713115225.png",
+    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "67030261/Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "67030261/Report.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
+    "Week-03.md",
+    "README.md",
     "ยังไม่ได้ตั้งชื่อ 1.base",
     "ยังไม่ได้ตั้งชื่อ.base",
-    "67030261/Report.md",
-    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "67030261",
-    "Week-03.md",
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
-    "README.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
@@ -218,7 +221,6 @@
     "Images/input_data.png",
     "Images/What_is_LDR.png",
     "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
-    "Images/LDR_and_R10k.png",
     "Week-03-Sensors-and-calibration-II.md"
   ]
 }
