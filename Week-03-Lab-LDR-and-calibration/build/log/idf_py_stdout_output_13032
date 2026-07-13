@@ -1,0 +1,443 @@
+Command: /Users/petchauisui/.espressif/tools/python/v6.0.2/venv/bin/python /Users/petchauisui/.espressif/v6.0.2/esp-idf/tools/idf_monitor.py -p /dev/cu.usbserial-0001 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/build/LED_Blink.elf /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/build/bootloader/bootloader.elf -m '/Users/petchauisui/.espressif/tools/python/v6.0.2/venv/bin/python' '/Users/petchauisui/.espressif/v6.0.2/esp-idf/tools/idf.py'
+I:     LED_Blink
+I (189ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0040,len:6272
+load:0x40078000,len:15820
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v6.0.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jul 13 2026 11:07:24[0m
+[0;32mI (27) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=095fch ( 38396) map[0m
+[0;32mI (100) esp_image: segment 1: paddr=00019624 vaddr=3ffb0000 size=02e70h ( 11888) load[0m
+[0;32mI (105) esp_image: segment 2: paddr=0001c49c vaddr=40080000 size=03b7ch ( 15228) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=11394h ( 70548) map[0m
+[0;32mI (137) esp_image: segment 4: paddr=000313bc vaddr=40083b7c size=0924ch ( 37452) load[0m
+[0;32mI (152) esp_image: segment 5: paddr=0003a610 vaddr=50000000 size=00028h (    40) load[0m
+[0;32mI (159) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (159) boot: Disabling RNG early entropy source...[0m
+[0;32mI (170) cpu_start: Multicore app[0m
+[0;32mI (179) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (179) cpu_start: Pro cpu start user code[0m
+[0;32mI (179) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (181) app_init: Application information:[0m
+[0;32mI (185) app_init: Project name:     LED_Blink[0m
+[0;32mI (189) app_init: App version:      7678bdb-dirty[0m
+[0;32mI (193) app_init: Compile time:     Jul 13 2026 11:04:52[0m
+[0;32mI (198) app_init: ELF file SHA256:  a5cf67dcd...[0m
+[0;32mI (202) app_init: ESP-IDF:          v6.0.2[0m
+[0;32mI (206) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (210) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (214) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (218) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (224) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (229) heap_init: At 3FFB3818 len 0002C7E8 (177 KiB): DRAM[0m
+[0;32mI (235) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (240) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (245) heap_init: At 4008CDC8 len 00013238 (76 KiB): IRAM[0m
+[0;33mW (252) spi_flash: Detected boya flash chip but using generic driver. For optimal functionality, enable `SPI_FLASH_SUPPORT_BOYA_CHIP` in menuconfig[0m
+[0;32mI (264) spi_flash: detected chip: generic[0m
+[0;32mI (267) spi_flash: flash io: dio[0m
+[0;33mW (270) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (283) main_task: Started on CPU0[0m
+[0;32mI (283) main_task: Calling app_main()[0m
+ADC Raw = 835, Voltage = 819 mV, Light = 3.04 Lux
+ADC Raw = 841, Voltage = 824 mV, Light = 3.04 Lux
+ADC Raw = 846, Voltage = 828 mV, Light = 3.04 Lux
+ADC Raw = 847, Voltage = 829 mV, Light = 3.04 Lux
+ADC Raw = 837, Voltage = 821 mV, Light = 3.04 Lux
+ADC Raw = 846, Voltage = 828 mV, Light = 3.04 Lux
+ADC Raw = 847, Voltage = 829 mV, Light = 3.04 Lux
+ADC Raw = 842, Voltage = 825 mV, Light = 3.04 Lux
+ADC Raw = 832, Voltage = 817 mV, Light = 3.04 Lux
+ADC Raw = 833, Voltage = 817 mV, Light = 3.04 Lux
+ADC Raw = 839, Voltage = 822 mV, Light = 3.04 Lux
+ADC Raw = 835, Voltage = 819 mV, Light = 3.04 Lux
+ADC Raw = 843, Voltage = 825 mV, Light = 3.04 Lux
+ADC Raw = 831, Voltage = 816 mV, Light = 3.04 Lux
+ADC Raw = 800, Voltage = 791 mV, Light = 3.04 Lux
+ADC Raw = 801, Voltage = 791 mV, Light = 3.04 Lux
+ADC Raw = 838, Voltage = 821 mV, Light = 3.04 Lux
+ADC Raw = 839, Voltage = 822 mV, Light = 3.04 Lux
+ADC Raw = 838, Voltage = 821 mV, Light = 3.04 Lux
+ADC Raw = 836, Voltage = 820 mV, Light = 3.04 Lux
+ADC Raw = 839, Voltage = 822 mV, Light = 3.04 Lux
+ADC Raw = 838, Voltage = 821 mV, Light = 3.04 Lux
+ADC Raw = 844, Voltage = 826 mV, Light = 3.04 Lux
+ADC Raw = 845, Voltage = 827 mV, Light = 3.04 Lux
+ADC Raw = 848, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 848, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 848, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 848, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 816, Voltage = 804 mV, Light = 3.04 Lux
+ADC Raw = 755, Voltage = 754 mV, Light = 3.04 Lux
+ADC Raw = 807, Voltage = 796 mV, Light = 3.04 Lux
+ADC Raw = 755, Voltage = 754 mV, Light = 3.04 Lux
+ADC Raw = 749, Voltage = 749 mV, Light = 3.04 Lux
+ADC Raw = 682, Voltage = 695 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 634, Voltage = 656 mV, Light = 3.04 Lux
+ADC Raw = 625, Voltage = 649 mV, Light = 3.04 Lux
+ADC Raw = 624, Voltage = 648 mV, Light = 3.04 Lux
+ADC Raw = 624, Voltage = 648 mV, Light = 3.04 Lux
+ADC Raw = 651, Voltage = 670 mV, Light = 3.04 Lux
+ADC Raw = 766, Voltage = 763 mV, Light = 3.04 Lux
+ADC Raw = 538, Voltage = 578 mV, Light = 3.04 Lux
+ADC Raw = 290, Voltage = 377 mV, Light = 3.03 Lux
+ADC Raw = 259, Voltage = 352 mV, Light = 3.03 Lux
+ADC Raw = 217, Voltage = 318 mV, Light = 3.03 Lux
+ADC Raw = 333, Voltage = 412 mV, Light = 3.03 Lux
+ADC Raw = 281, Voltage = 370 mV, Light = 3.03 Lux
+ADC Raw = 211, Voltage = 313 mV, Light = 3.03 Lux
+ADC Raw = 160, Voltage = 272 mV, Light = 3.03 Lux
+ADC Raw = 113, Voltage = 234 mV, Light = 3.03 Lux
+ADC Raw = 114, Voltage = 234 mV, Light = 3.03 Lux
+ADC Raw = 115, Voltage = 235 mV, Light = 3.03 Lux
+ADC Raw = 112, Voltage = 233 mV, Light = 3.03 Lux
+ADC Raw = 118, Voltage = 238 mV, Light = 3.03 Lux
+ADC Raw = 113, Voltage = 234 mV, Light = 3.03 Lux
+ADC Raw = 111, Voltage = 232 mV, Light = 3.03 Lux
+ADC Raw = 117, Voltage = 237 mV, Light = 3.03 Lux
+ADC Raw = 99, Voltage = 222 mV, Light = 3.03 Lux
+ADC Raw = 112, Voltage = 233 mV, Light = 3.03 Lux
+ADC Raw = 85, Voltage = 211 mV, Light = 3.03 Lux
+ADC Raw = 97, Voltage = 221 mV, Light = 3.03 Lux
+ADC Raw = 82, Voltage = 208 mV, Light = 3.03 Lux
+ADC Raw = 91, Voltage = 216 mV, Light = 3.03 Lux
+ADC Raw = 91, Voltage = 216 mV, Light = 3.03 Lux
+ADC Raw = 78, Voltage = 205 mV, Light = 3.03 Lux
+ADC Raw = 74, Voltage = 202 mV, Light = 3.03 Lux
+ADC Raw = 69, Voltage = 198 mV, Light = 3.03 Lux
+ADC Raw = 69, Voltage = 198 mV, Light = 3.03 Lux
+ADC Raw = 71, Voltage = 200 mV, Light = 3.03 Lux
+ADC Raw = 67, Voltage = 196 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 63, Voltage = 193 mV, Light = 3.03 Lux
+ADC Raw = 71, Voltage = 200 mV, Light = 3.03 Lux
+ADC Raw = 71, Voltage = 200 mV, Light = 3.03 Lux
+ADC Raw = 73, Voltage = 201 mV, Light = 3.03 Lux
+ADC Raw = 74, Voltage = 202 mV, Light = 3.03 Lux
+ADC Raw = 75, Voltage = 203 mV, Light = 3.03 Lux
+ADC Raw = 76, Voltage = 204 mV, Light = 3.03 Lux
+ADC Raw = 75, Voltage = 203 mV, Light = 3.03 Lux
+ADC Raw = 61, Voltage = 191 mV, Light = 3.03 Lux
+ADC Raw = 61, Voltage = 191 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 60, Voltage = 191 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 52, Voltage = 184 mV, Light = 3.03 Lux
+ADC Raw = 52, Voltage = 184 mV, Light = 3.03 Lux
+ADC Raw = 55, Voltage = 187 mV, Light = 3.03 Lux
+ADC Raw = 49, Voltage = 182 mV, Light = 3.03 Lux
+ADC Raw = 48, Voltage = 181 mV, Light = 3.03 Lux
+ADC Raw = 47, Voltage = 180 mV, Light = 3.03 Lux
+ADC Raw = 33, Voltage = 169 mV, Light = 3.03 Lux
+ADC Raw = 23, Voltage = 161 mV, Light = 3.03 Lux
+ADC Raw = 30, Voltage = 166 mV, Light = 3.03 Lux
+ADC Raw = 36, Voltage = 171 mV, Light = 3.03 Lux
+ADC Raw = 35, Voltage = 170 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 179, Voltage = 287 mV, Light = 3.03 Lux
+ADC Raw = 87, Voltage = 213 mV, Light = 3.03 Lux
+ADC Raw = 68, Voltage = 197 mV, Light = 3.03 Lux
+ADC Raw = 75, Voltage = 203 mV, Light = 3.03 Lux
+ADC Raw = 78, Voltage = 205 mV, Light = 3.03 Lux
+ADC Raw = 67, Voltage = 196 mV, Light = 3.03 Lux
+ADC Raw = 83, Voltage = 209 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 63, Voltage = 193 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 58, Voltage = 189 mV, Light = 3.03 Lux
+ADC Raw = 57, Voltage = 188 mV, Light = 3.03 Lux
+ADC Raw = 59, Voltage = 190 mV, Light = 3.03 Lux
+ADC Raw = 53, Voltage = 185 mV, Light = 3.03 Lux
+ADC Raw = 43, Voltage = 177 mV, Light = 3.03 Lux
+ADC Raw = 43, Voltage = 177 mV, Light = 3.03 Lux
+ADC Raw = 47, Voltage = 180 mV, Light = 3.03 Lux
+ADC Raw = 57, Voltage = 188 mV, Light = 3.03 Lux
+ADC Raw = 59, Voltage = 190 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 62, Voltage = 192 mV, Light = 3.03 Lux
+ADC Raw = 58, Voltage = 189 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 61, Voltage = 191 mV, Light = 3.03 Lux
+ADC Raw = 61, Voltage = 191 mV, Light = 3.03 Lux
+ADC Raw = 64, Voltage = 194 mV, Light = 3.03 Lux
+ADC Raw = 65, Voltage = 195 mV, Light = 3.03 Lux
+ADC Raw = 209, Voltage = 311 mV, Light = 3.03 Lux
+ADC Raw = 208, Voltage = 311 mV, Light = 3.03 Lux
+ADC Raw = 211, Voltage = 313 mV, Light = 3.03 Lux
+ADC Raw = 209, Voltage = 311 mV, Light = 3.03 Lux
+ADC Raw = 193, Voltage = 298 mV, Light = 3.03 Lux
+ADC Raw = 407, Voltage = 472 mV, Light = 3.03 Lux
+ADC Raw = 592, Voltage = 622 mV, Light = 3.04 Lux
+ADC Raw = 563, Voltage = 598 mV, Light = 3.04 Lux
+ADC Raw = 576, Voltage = 609 mV, Light = 3.04 Lux
+ADC Raw = 593, Voltage = 623 mV, Light = 3.04 Lux
+ADC Raw = 612, Voltage = 638 mV, Light = 3.04 Lux
+ADC Raw = 615, Voltage = 641 mV, Light = 3.04 Lux
+ADC Raw = 610, Voltage = 637 mV, Light = 3.04 Lux
+ADC Raw = 630, Voltage = 653 mV, Light = 3.04 Lux
+ADC Raw = 635, Voltage = 657 mV, Light = 3.04 Lux
+ADC Raw = 1166, Voltage = 1087 mV, Light = 3.04 Lux
+ADC Raw = 3165, Voltage = 2667 mV, Light = 3.04 Lux
+ADC Raw = 3303, Voltage = 2753 mV, Light = 3.04 Lux
+ADC Raw = 3207, Voltage = 2694 mV, Light = 3.04 Lux
+ADC Raw = 3217, Voltage = 2700 mV, Light = 3.04 Lux
+ADC Raw = 3233, Voltage = 2710 mV, Light = 3.04 Lux
+ADC Raw = 3234, Voltage = 2711 mV, Light = 3.04 Lux
+ADC Raw = 3356, Voltage = 2785 mV, Light = 3.04 Lux
+ADC Raw = 3602, Voltage = 2917 mV, Light = 3.05 Lux
+ADC Raw = 3852, Voltage = 3035 mV, Light = 3.05 Lux
+ADC Raw = 3994, Voltage = 3096 mV, Light = 3.05 Lux
+ADC Raw = 4017, Voltage = 3106 mV, Light = 3.05 Lux
+ADC Raw = 4065, Voltage = 3126 mV, Light = 3.05 Lux
+ADC Raw = 4095, Voltage = 3139 mV, Light = 3.05 Lux
+ADC Raw = 3883, Voltage = 3049 mV, Light = 3.05 Lux
+ADC Raw = 3984, Voltage = 3092 mV, Light = 3.05 Lux
+ADC Raw = 3823, Voltage = 3022 mV, Light = 3.05 Lux
+ADC Raw = 741, Voltage = 743 mV, Light = 3.04 Lux
+ADC Raw = 692, Voltage = 703 mV, Light = 3.04 Lux
+ADC Raw = 672, Voltage = 687 mV, Light = 3.04 Lux
+ADC Raw = 670, Voltage = 685 mV, Light = 3.04 Lux
+ADC Raw = 662, Voltage = 679 mV, Light = 3.04 Lux
+ADC Raw = 656, Voltage = 674 mV, Light = 3.04 Lux
+ADC Raw = 650, Voltage = 669 mV, Light = 3.04 Lux
+ADC Raw = 642, Voltage = 663 mV, Light = 3.04 Lux
+ADC Raw = 643, Voltage = 663 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 639, Voltage = 660 mV, Light = 3.04 Lux
+ADC Raw = 641, Voltage = 662 mV, Light = 3.04 Lux
+ADC Raw = 635, Voltage = 657 mV, Light = 3.04 Lux
+ADC Raw = 643, Voltage = 663 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 642, Voltage = 663 mV, Light = 3.04 Lux
+ADC Raw = 625, Voltage = 649 mV, Light = 3.04 Lux
+ADC Raw = 627, Voltage = 650 mV, Light = 3.04 Lux
+ADC Raw = 631, Voltage = 654 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 635, Voltage = 657 mV, Light = 3.04 Lux
+ADC Raw = 638, Voltage = 659 mV, Light = 3.04 Lux
+ADC Raw = 637, Voltage = 658 mV, Light = 3.04 Lux
+ADC Raw = 640, Voltage = 661 mV, Light = 3.04 Lux
+ADC Raw = 638, Voltage = 659 mV, Light = 3.04 Lux
+ADC Raw = 769, Voltage = 765 mV, Light = 3.04 Lux
+ADC Raw = 784, Voltage = 778 mV, Light = 3.04 Lux
+ADC Raw = 871, Voltage = 848 mV, Light = 3.04 Lux
+ADC Raw = 874, Voltage = 851 mV, Light = 3.04 Lux
+ADC Raw = 875, Voltage = 851 mV, Light = 3.04 Lux
+ADC Raw = 878, Voltage = 854 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 878, Voltage = 854 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 874, Voltage = 851 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 878, Voltage = 854 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 875, Voltage = 851 mV, Light = 3.04 Lux
+ADC Raw = 878, Voltage = 854 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 879, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 883, Voltage = 858 mV, Light = 3.04 Lux
+ADC Raw = 881, Voltage = 856 mV, Light = 3.04 Lux
+ADC Raw = 918, Voltage = 886 mV, Light = 3.04 Lux
+ADC Raw = 921, Voltage = 889 mV, Light = 3.04 Lux
+ADC Raw = 920, Voltage = 888 mV, Light = 3.04 Lux
+ADC Raw = 916, Voltage = 885 mV, Light = 3.04 Lux
+ADC Raw = 918, Voltage = 886 mV, Light = 3.04 Lux
+ADC Raw = 917, Voltage = 885 mV, Light = 3.04 Lux
+ADC Raw = 919, Voltage = 887 mV, Light = 3.04 Lux
+ADC Raw = 912, Voltage = 881 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 906, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 910, Voltage = 880 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 906, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 909, Voltage = 879 mV, Light = 3.04 Lux
+ADC Raw = 908, Voltage = 878 mV, Light = 3.04 Lux
+ADC Raw = 906, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 908, Voltage = 878 mV, Light = 3.04 Lux
+ADC Raw = 910, Voltage = 880 mV, Light = 3.04 Lux
+ADC Raw = 891, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 842, Voltage = 825 mV, Light = 3.04 Lux
+ADC Raw = 753, Voltage = 753 mV, Light = 3.04 Lux
+ADC Raw = 770, Voltage = 766 mV, Light = 3.04 Lux
+ADC Raw = 770, Voltage = 766 mV, Light = 3.04 Lux
+ADC Raw = 883, Voltage = 858 mV, Light = 3.04 Lux
+ADC Raw = 832, Voltage = 817 mV, Light = 3.04 Lux
+ADC Raw = 829, Voltage = 814 mV, Light = 3.04 Lux
+ADC Raw = 909, Voltage = 879 mV, Light = 3.04 Lux
+ADC Raw = 911, Voltage = 881 mV, Light = 3.04 Lux
+ADC Raw = 901, Voltage = 872 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 882, Voltage = 857 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 831, Voltage = 816 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 865, Voltage = 843 mV, Light = 3.04 Lux
+ADC Raw = 839, Voltage = 822 mV, Light = 3.04 Lux
+ADC Raw = 731, Voltage = 735 mV, Light = 3.04 Lux
+ADC Raw = 704, Voltage = 713 mV, Light = 3.04 Lux
+ADC Raw = 677, Voltage = 691 mV, Light = 3.04 Lux
+ADC Raw = 665, Voltage = 681 mV, Light = 3.04 Lux
+ADC Raw = 663, Voltage = 680 mV, Light = 3.04 Lux
+ADC Raw = 660, Voltage = 677 mV, Light = 3.04 Lux
+ADC Raw = 658, Voltage = 675 mV, Light = 3.04 Lux
+ADC Raw = 647, Voltage = 667 mV, Light = 3.04 Lux
+ADC Raw = 601, Voltage = 629 mV, Light = 3.04 Lux
+ADC Raw = 583, Voltage = 615 mV, Light = 3.04 Lux
+ADC Raw = 576, Voltage = 609 mV, Light = 3.04 Lux
+ADC Raw = 511, Voltage = 556 mV, Light = 3.03 Lux
+ADC Raw = 526, Voltage = 568 mV, Light = 3.04 Lux
+ADC Raw = 541, Voltage = 581 mV, Light = 3.04 Lux
+ADC Raw = 563, Voltage = 598 mV, Light = 3.04 Lux
+ADC Raw = 590, Voltage = 620 mV, Light = 3.04 Lux
+ADC Raw = 592, Voltage = 622 mV, Light = 3.04 Lux
+ADC Raw = 614, Voltage = 640 mV, Light = 3.04 Lux
+ADC Raw = 607, Voltage = 634 mV, Light = 3.04 Lux
+ADC Raw = 608, Voltage = 635 mV, Light = 3.04 Lux
+ADC Raw = 625, Voltage = 649 mV, Light = 3.04 Lux
+ADC Raw = 637, Voltage = 658 mV, Light = 3.04 Lux
+ADC Raw = 641, Voltage = 662 mV, Light = 3.04 Lux
+ADC Raw = 656, Voltage = 674 mV, Light = 3.04 Lux
+ADC Raw = 603, Voltage = 631 mV, Light = 3.04 Lux
+ADC Raw = 576, Voltage = 609 mV, Light = 3.04 Lux
+ADC Raw = 614, Voltage = 640 mV, Light = 3.04 Lux
+ADC Raw = 619, Voltage = 644 mV, Light = 3.04 Lux
+ADC Raw = 720, Voltage = 726 mV, Light = 3.04 Lux
+ADC Raw = 825, Voltage = 811 mV, Light = 3.04 Lux
+ADC Raw = 732, Voltage = 735 mV, Light = 3.04 Lux
+ADC Raw = 732, Voltage = 735 mV, Light = 3.04 Lux
+ADC Raw = 851, Voltage = 832 mV, Light = 3.04 Lux
+ADC Raw = 887, Voltage = 861 mV, Light = 3.04 Lux
+ADC Raw = 901, Voltage = 872 mV, Light = 3.04 Lux
+ADC Raw = 901, Voltage = 872 mV, Light = 3.04 Lux
+ADC Raw = 908, Voltage = 878 mV, Light = 3.04 Lux
+ADC Raw = 906, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 906, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 905, Voltage = 876 mV, Light = 3.04 Lux
+ADC Raw = 901, Voltage = 872 mV, Light = 3.04 Lux
+ADC Raw = 910, Voltage = 880 mV, Light = 3.04 Lux
+ADC Raw = 907, Voltage = 877 mV, Light = 3.04 Lux
+ADC Raw = 899, Voltage = 871 mV, Light = 3.04 Lux
+ADC Raw = 866, Voltage = 844 mV, Light = 3.04 Lux
+ADC Raw = 775, Voltage = 770 mV, Light = 3.04 Lux
+ADC Raw = 846, Voltage = 828 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 889, Voltage = 863 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 889, Voltage = 863 mV, Light = 3.04 Lux
+ADC Raw = 887, Voltage = 861 mV, Light = 3.04 Lux
+ADC Raw = 889, Voltage = 863 mV, Light = 3.04 Lux
+ADC Raw = 892, Voltage = 865 mV, Light = 3.04 Lux
+ADC Raw = 891, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 891, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 890, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 888, Voltage = 862 mV, Light = 3.04 Lux
+ADC Raw = 887, Voltage = 861 mV, Light = 3.04 Lux
+ADC Raw = 890, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 888, Voltage = 862 mV, Light = 3.04 Lux
+ADC Raw = 887, Voltage = 861 mV, Light = 3.04 Lux
+ADC Raw = 895, Voltage = 868 mV, Light = 3.04 Lux
+ADC Raw = 886, Voltage = 860 mV, Light = 3.04 Lux
+ADC Raw = 890, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 893, Voltage = 866 mV, Light = 3.04 Lux
+ADC Raw = 883, Voltage = 858 mV, Light = 3.04 Lux
+ADC Raw = 883, Voltage = 858 mV, Light = 3.04 Lux
+ADC Raw = 891, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 911, Voltage = 881 mV, Light = 3.04 Lux
+ADC Raw = 895, Voltage = 868 mV, Light = 3.04 Lux
+ADC Raw = 882, Voltage = 857 mV, Light = 3.04 Lux
+ADC Raw = 795, Voltage = 787 mV, Light = 3.04 Lux
+ADC Raw = 849, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 832, Voltage = 817 mV, Light = 3.04 Lux
+ADC Raw = 842, Voltage = 825 mV, Light = 3.04 Lux
+ADC Raw = 891, Voltage = 864 mV, Light = 3.04 Lux
+ADC Raw = 881, Voltage = 856 mV, Light = 3.04 Lux
+ADC Raw = 880, Voltage = 855 mV, Light = 3.04 Lux
+ADC Raw = 867, Voltage = 845 mV, Light = 3.04 Lux
+ADC Raw = 872, Voltage = 849 mV, Light = 3.04 Lux
+ADC Raw = 867, Voltage = 845 mV, Light = 3.04 Lux
+ADC Raw = 845, Voltage = 827 mV, Light = 3.04 Lux
+ADC Raw = 848, Voltage = 830 mV, Light = 3.04 Lux
+ADC Raw = 853, Voltage = 834 mV, Light = 3.04 Lux
+ADC Raw = 861, Voltage = 840 mV, Light = 3.04 Lux
+ADC Raw = 569, Voltage = 603 mV, Light = 3.04 Lux
+ADC Raw = 373, Voltage = 444 mV, Light = 3.03 Lux
+ADC Raw = 359, Voltage = 433 mV, Light = 3.03 Lux
+ADC Raw = 357, Voltage = 431 mV, Light = 3.03 Lux
+ADC Raw = 351, Voltage = 427 mV, Light = 3.03 Lux
+ADC Raw = 348, Voltage = 424 mV, Light = 3.03 Lux
+ADC Raw = 2475, Voltage = 2149 mV, Light = 3.04 Lux
+ADC Raw = 2485, Voltage = 2157 mV, Light = 3.04 Lux
+ADC Raw = 2486, Voltage = 2158 mV, Light = 3.04 Lux
+ADC Raw = 2487, Voltage = 2158 mV, Light = 3.04 Lux
+ADC Raw = 2483, Voltage = 2155 mV, Light = 3.04 Lux
+ADC Raw = 2084, Voltage = 1832 mV, Light = 3.04 Lux
+ADC Raw = 1360, Voltage = 1245 mV, Light = 3.04 Lux
+ADC Raw = 1764, Voltage = 1572 mV, Light = 3.04 Lux
+ADC Raw = 1482, Voltage = 1344 mV, Light = 3.04 Lux
+ADC Raw = 2310, Voltage = 2015 mV, Light = 3.04 Lux
+ADC Raw = 2525, Voltage = 2189 mV, Light = 3.04 Lux
+ADC Raw = 2478, Voltage = 2151 mV, Light = 3.04 Lux
+ADC Raw = 2368, Voltage = 2062 mV, Light = 3.04 Lux
+ADC Raw = 2332, Voltage = 2033 mV, Light = 3.04 Lux
+ADC Raw = 2345, Voltage = 2043 mV, Light = 3.04 Lux
+ADC Raw = 2241, Voltage = 1959 mV, Light = 3.04 Lux
+ADC Raw = 2166, Voltage = 1898 mV, Light = 3.04 Lux
+ADC Raw = 2176, Voltage = 1906 mV, Light = 3.04 Lux
+ADC Raw = 2165, Voltage = 1897 mV, Light = 3.04 Lux
+ADC Raw = 2171, Voltage = 1902 mV, Light = 3.04 Lux
+ADC Raw = 2160, Voltage = 1893 mV, Light = 3.04 Lux
+ADC Raw = 2160, Voltage = 1893 mV, Light = 3.04 Lux
+ADC Raw = 2151, Voltage = 1886 mV, Light = 3.04 Lux
+ADC Raw = 2150, Voltage = 1885 mV, Light = 3.04 Lux
+ADC Raw = 2151, Voltage = 1886 mV, Light = 3.04 Lux
+ADC Raw = 2157, Voltage = 1891 mV, Light = 3.04 Lux
+ADC Raw = 2153, Voltage = 1888 mV, Light = 3.04 Lux
+ADC Raw = 2158, Voltage = 1892 mV, Light = 3.04 Lux
+ADC Raw = 2160, Voltage = 1893 mV, Light = 3.04 Lux
+ADC Raw = 2161, Voltage = 1894 mV, Light = 3.04 Lux
+ADC Raw = 2167, Voltage = 1899 mV, Light = 3.04 Lux
+ADC Raw = 2174, Voltage = 1905 mV, Light = 3.04 Lux
+ADC Raw = 2171, Voltage = 1902 mV, Light = 3.04 Lux
+ADC Raw = 2160, Voltage = 1893 mV, Light = 3.04 Lux
+ADC Raw = 2151, Voltage = 1886 mV, Light = 3.04 Lux
+ADC Raw = 2128, Voltage = 1867 mV, Light = 3.04 Lux
+ADC Raw = 2147, Voltage = 1883 mV, Light = 3.04 Lux
+ADC Raw = 2160, Voltage = 1893 mV, Light = 3.04 Lux

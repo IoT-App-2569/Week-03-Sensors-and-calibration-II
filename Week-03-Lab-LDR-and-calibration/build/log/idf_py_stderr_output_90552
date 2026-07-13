@@ -1,0 +1,68 @@
+Command: cmake -G Ninja -B /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/petchauisui/.espressif/tools/python/v6.0.2/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration
+CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+Configuration Report                                                                                            
+ ────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+   Parser Version: 1                                                                                            
+   Verbosity: default                                                                                           
+   Defaults policy: sdkconfig                                                                                   
+   Status: Finished with notifications                                                                          
+                                                                                                                
+  Miscellaneous                                                                                                 
+   ──────────────────────────────────────────────────────────────────────────────────────────────────────────   
+    * BT_NIMBLE_MESH_PROVISIONER (defined at                                                                    
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/bt/host/nimble/Kconfig.in:1421): 'default 0' is     
+    not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.                             
+    * BTDM_CTRL_LEGACY_AUTH_VENDOR_EVT_EFF (defined at                                                          
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/bt/controller/esp32/Kconfig.in:177): 'default 0'    
+    is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.                          
+    * FATFS_PRINT_LLI (defined at                                                                               
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:230): 'default 0' is not a valid      
+    bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.                                         
+    * FATFS_PRINT_FLOAT (defined at                                                                             
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/fatfs/Kconfig:235): 'default 0' is not a valid      
+    bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.                                         
+   ──────────────────────────────────────────────────────────────────────────────────────────────────────────   
+  Disabled Symbols/Choices With User-Set Value                                                                  
+   ──────────────────────────────────────────────────────────────────────────────────────────────────────────   
+    * PARTITION_TABLE_CUSTOM_FILENAME (defined at                                                               
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/partition_table/Kconfig.projbuild:129) with         
+    user-set value partitions.csv from                                                                          
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * ESP_INTR_IN_IRAM (defined at                                                                              
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_hw_support/Kconfig:326) with user-set value     
+    y from                                                                                                      
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * LIBC_MISC_IN_IRAM (defined at                                                                             
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_libc/Kconfig:45) with user-set value y from     
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * ESP_ROM_PRINT_IN_IRAM (defined at                                                                         
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_rom/Kconfig:3) with user-set value y from       
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * ESP_CONSOLE_UART_BAUDRATE (defined at                                                                     
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_stdio/Kconfig:150) with user-set value          
+    115200 from                                                                                                 
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * ESP_SYSTEM_IN_IRAM (defined at                                                                            
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_system/Kconfig:12) with user-set value y        
+    from                                                                                                        
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * ESP_TIMER_IN_IRAM (defined at                                                                             
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/esp_timer/Kconfig:3) with user-set value y from     
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * LOG_IN_IRAM (defined at /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/log/Kconfig:55) with      
+    user-set value y from                                                                                       
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+    * SPI_FLASH_PLACE_FUNCTIONS_IN_IRAM (defined at                                                             
+    /Users/petchauisui/.espressif/v6.0.2/esp-idf/components/spi_flash/Kconfig:178) with user-set value y        
+    from                                                                                                        
+    /Users/petchauisui/Desktop/Dev/Week-03-Sensors-and-calibration-II/Week-03-Lab-LDR-and-calibration/sdkco…    
+   ──────────────────────────────────────────────────────────────────────────────────────────────────────────   
+ ────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
