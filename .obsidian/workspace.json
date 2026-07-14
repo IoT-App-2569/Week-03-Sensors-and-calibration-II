@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03.md",
+                "file": "67030110/Homework 67030110.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03"
+              "title": "Homework 67030110"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-                "followCursor": false,
+                "file": "Untitled.base",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week-03-Lab-sheet-03-LDR-and-calibration"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -207,14 +207,17 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
-    "Week-03-01_Physical_World.md",
+    "Untitled.base",
+    "Week-03.md",
+    "README.md",
+    "67030110/Homework 67030110.md",
+    "67030110",
     "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
     "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03-04-Sensor-vs-Transducer.md",
     "Week-03-05-Signal-Integrity.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-    "README.md",
-    "Week-03.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
