@@ -11,14 +11,14 @@
             "id": "914d1bc10e559287",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "67030037/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Week-03-Lab-sheet-03-LDR-and-calibration 1"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -207,9 +207,10 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
-    "ESP-32LAB/sdsdsd.md",
     "ESP-32LAB/EPS32.md",
     "67030037/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
+    "ESP-32LAB/sdsdsd.c",
+    "ESP-32LAB/sdsdsd.md",
     "ESP-32LAB",
     "67030037/homework 67030037.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
