@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "67030002/Homework 67030002.md",
+                "file": "67030002/Week-03-Lab-Report-03-LDR-and-calibration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework 67030002"
+              "title": "Week-03-Lab-Report-03-LDR-and-calibration"
             }
           }
         ]
@@ -207,19 +207,29 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
-    "ยังไม่ได้ตั้งชื่อ.canvas",
+    "Pasted image 20260714122953.png",
     "67030002/Homework 67030002.md",
+    "67030002/Week-03-Lab-Report-03-LDR-and-calibration.md",
+    "LDR_project/build/LDR_project.bin",
+    "LDR_project/build/LDR_project.elf",
+    "LDR_project/build/LDR_project.map",
+    "LDR_project/build/CMakeFiles/LDR_project.elf.dir/project_elf_src_esp32.c.obj",
+    "LDR_project/build/esp-idf/esp_system/ld/sections.ld",
+    "LDR_project/build/bootloader-prefix/src/bootloader-stamp/bootloader-done",
+    "LDR_project/build/CMakeFiles/bootloader-complete",
+    "LDR_project/build/bootloader/bootloader.bin",
+    "LDR_project/build/bootloader/bootloader.elf",
+    "LDR_project/build/bootloader/bootloader.map",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
+    "Week-03.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "README.md",
+    "ยังไม่ได้ตั้งชื่อ.canvas",
     "Images/10_Magnetic_Energy_to_IoT.png",
     "Images/7_Chemical_Energy.png",
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03.md",
-    "67030002",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
-    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-    "README.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
