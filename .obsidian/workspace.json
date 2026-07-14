@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "67030314/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
+                "file": "67030314/Week-03-Lab-sheet-03-LDR-and-calibration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03-Lab-sheet-03-LDR-and-calibration 1"
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
             }
           }
         ],
@@ -191,13 +191,13 @@
             }
           },
           {
-            "id": "50f4ebebce540ee8",
+            "id": "ba49dfb8eaecef40",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           }
         ],
@@ -220,7 +220,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "71a74e42ccb4dbc1",
+  "active": "ba49dfb8eaecef40",
   "lastOpenFiles": [
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "67030314/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
