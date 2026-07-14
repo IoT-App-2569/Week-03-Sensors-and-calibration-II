@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03.md",
-                "mode": "source",
+                "file": "67030059/homework 67030059.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03"
+              "title": "homework 67030059"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "file": "67030059/homework 67030059.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week-03-03-Physical to Electrical to Digital"
+              "title": "Backlinks for homework 67030059"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "file": "67030059/homework 67030059.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Week-03-03-Physical to Electrical to Digital"
+              "title": "Outgoing links from homework 67030059"
             }
           },
           {
@@ -156,23 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "file": "67030059/homework 67030059.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week-03-Lab-sheet-03-LDR-and-calibration"
-            }
-          },
-          {
-            "id": "85788eb0f92ec94b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of homework 67030059"
             }
           },
           {
@@ -181,12 +171,22 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "36102e8328902f7c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -205,8 +205,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "914d1bc10e559287",
+  "active": "50f4ebebce540ee8",
   "lastOpenFiles": [
+    "Week-03.md",
+    "67030059/homework 67030059.md",
+    "67030059",
     "Week-03-01_Physical_World.md",
     "Week-03-02-Digital-World.md",
     "Week-03-03-Physical to Electrical to Digital.md",
@@ -214,7 +217,6 @@
     "Week-03-05-Signal-Integrity.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "README.md",
-    "Week-03.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
