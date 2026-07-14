@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03.md",
+                "file": "67030043/Homework 67030043.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03"
+              "title": "Homework 67030043"
             }
           }
         ]
@@ -207,6 +207,9 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
+    "Week-03.md",
+    "67030043/Homework 67030043.md",
+    "67030043",
     "Week-03-01_Physical_World.md",
     "Week-03-02-Digital-World.md",
     "Week-03-03-Physical to Electrical to Digital.md",
@@ -214,7 +217,6 @@
     "Week-03-05-Signal-Integrity.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "README.md",
-    "Week-03.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
