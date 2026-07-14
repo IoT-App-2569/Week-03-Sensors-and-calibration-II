@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03.md",
+                "file": "67030085/Week-03-Lab-Report-03-LDR-and-calibration 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03"
+              "title": "Week-03-Lab-Report-03-LDR-and-calibration 1"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 200
   },
   "right": {
     "id": "177091d43df982aa",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "file": "Week-03-01_Physical_World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week-03-03-Physical to Electrical to Digital"
+              "title": "แบ็คลิงค์ของ Week-03-01_Physical_World"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "file": "Week-03-01_Physical_World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Week-03-03-Physical to Electrical to Digital"
+              "title": "ลิงค์ขาออกของ Week-03-01_Physical_World"
             }
           },
           {
@@ -133,7 +133,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "แท็ก"
             }
           },
           {
@@ -147,7 +147,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "คุณสมบัติทั้งหมด"
             }
           },
           {
@@ -156,23 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "file": "Week-03-01_Physical_World.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week-03-Lab-sheet-03-LDR-and-calibration"
-            }
-          },
-          {
-            "id": "85788eb0f92ec94b",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "โครงเรื่องของ Week-03-01_Physical_World"
             }
           },
           {
@@ -181,16 +171,27 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "mermaid-toolbar-view"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
+            }
+          },
+          {
+            "id": "529bff0fb338b35e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 396.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,14 +208,30 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
+    "67030085/build/esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj",
+    "67030085/build/esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir",
+    "67030085/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir/esp_bootloader_desc.c.obj",
+    "67030085/build/esp-idf/esp_bootloader_format/CMakeFiles/__idf_esp_bootloader_format.dir",
+    "67030085/build/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir/esp_app_desc.c.obj",
+    "67030085/build/esp-idf/esp_app_format/CMakeFiles/__idf_esp_app_format.dir",
+    "67030085/build/esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c/protobuf-c.c.obj",
+    "67030085/build/esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c/protobuf-c",
+    "67030085/build/esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir/protobuf-c",
+    "67030085/build/esp-idf/protobuf-c/CMakeFiles/__idf_protobuf-c.dir",
+    "67030085/build/esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj",
+    "Pasted image 20260714161728.png",
+    "67030085/Homework 67030085.md",
+    "67030085/Week-03-Lab-Report-03-LDR-and-calibration 1.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
     "README.md",
+    "2026-07-14.md",
+    "ยังไม่ได้ตั้งชื่อ.canvas",
     "Week-03.md",
+    "Week-03-05-Signal-Integrity.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
@@ -224,7 +241,6 @@
     "Images/input_data.png",
     "Images/What_is_LDR.png",
     "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
-    "Images/LDR_and_R10k.png",
     "Week-03-Sensors-and-calibration-II.md"
   ]
 }

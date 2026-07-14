@@ -1,0 +1,272 @@
+Command: C:\Users\Thanu\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe C:\Users\Thanu\esp\v5.5.1\esp-idf\tools/idf_monitor.py -p COM12 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 C:\Users\Thanu\Week-03-Sensors-and-calibration-II\67030085\build\67030085_HW.elf C:\Users\Thanu\Week-03-Sensors-and-calibration-II\67030085\build\bootloader\bootloader.elf --force-color -m 'C:\Users\Thanu\.espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe' 'C:\Users\Thanu\esp\v5.5.1\esp-idf\tools\idf.py' '-p' 'COM12'
+\YY���j!�5
+[0;32mI (37) boot.es�ets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jul 14 2026 11:28:03[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a34ch ( 41804) map[0m
+[0;32mI (102) esp_image: segment 1: paddr=0001a374 vaddr=3ffb0000 size=023f8h (  9208) load[0m
+[0;32mI (106) esp_image: segment 2: paddr=0001c774 vaddr=40080000 size=038a4h ( 14500) load[0m
+[0;32mI (112) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=14978h ( 84344) map[0m
+[0;32mI (143) esp_image: segment 4: paddr=000349a0 vaddr=400838a4 size=0970ch ( 38668) load[0m
+[0;32mI (158) esp_image: segment 5: paddr=0003e0b4 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (165) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (165) boot: Disabling RNG early entropy source...[0m
+[0;32mI (176) cpu_start: Multicore app[0m
+[0;32mI (184) cpu_start: Pro cpu start user code[0m
+[0;32mI (184) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (184) app_init: Application information:[0m
+[0;32mI (184) app_init: Project name:     67030085_HW[0m
+[0;32mI (189) app_init: App version:      76fd201-dirty[0m
+[0;32mI (193) app_init: Compile time:     Jul 14 2026 11:23:03[0m
+[0;32mI (198) app_init: ELF file SHA256:  99bf392fe...[0m
+[0;32mI (202) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (206) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (210) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (214) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (218) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (224) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (229) heap_init: At 3FFB2CE8 len 0002D318 (180 KiB): DRAM[0m
+[0;32mI (235) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (240) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (246) heap_init: At 4008CFB0 len 00013050 (76 KiB): IRAM[0m
+[0;32mI (252) spi_flash: detected chip: generic[0m
+[0;32mI (254) spi_flash: flash io: dio[0m
+[0;33mW (257) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (270) ADC: legacy driver is deprecated, please migrate to `esp_adc/adc_oneshot.h`[0m
+[0;32mI (278) main_task: Started on CPU0[0m
+[0;32mI (288) main_task: Calling app_main()[0m
+ADC Raw = 659, Lux = 226.78
+ADC Raw = 725, Lux = 254.50
+ADC Raw = 718, Lux = 251.56
+ADC Raw = 729, Lux = 256.18
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 583, Lux = 194.86
+ADC Raw = 653, Lux = 224.26
+ADC Raw = 965, Lux = 355.30
+ADC Raw = 720, Lux = 252.40
+ADC Raw = 633, Lux = 215.86
+ADC Raw = 621, Lux = 210.82
+ADC Raw = 620, Lux = 210.40
+ADC Raw = 637, Lux = 217.54
+ADC Raw = 604, Lux = 203.68
+ADC Raw = 592, Lux = 198.64
+ADC Raw = 596, Lux = 200.32
+ADC Raw = 365, Lux = 103.30
+ADC Raw = 390, Lux = 113.80
+ADC Raw = 301, Lux = 76.42
+ADC Raw = 170, Lux = 21.40
+ADC Raw = 288, Lux = 70.96
+ADC Raw = 227, Lux = 45.34
+ADC Raw = 166, Lux = 19.72
+ADC Raw = 245, Lux = 52.90
+ADC Raw = 231, Lux = 47.02
+ADC Raw = 299, Lux = 75.58
+ADC Raw = 89, Lux = -12.62
+ADC Raw = 585, Lux = 195.70
+ADC Raw = 669, Lux = 230.98
+ADC Raw = 652, Lux = 223.84
+ADC Raw = 609, Lux = 205.78
+ADC Raw = 604, Lux = 203.68
+ADC Raw = 571, Lux = 189.82
+ADC Raw = 634, Lux = 216.28
+ADC Raw = 607, Lux = 204.94
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 634, Lux = 216.28
+ADC Raw = 668, Lux = 230.56
+ADC Raw = 613, Lux = 207.46
+ADC Raw = 635, Lux = 216.70
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 673, Lux = 232.66
+ADC Raw = 681, Lux = 236.02
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 620, Lux = 210.40
+ADC Raw = 638, Lux = 217.96
+ADC Raw = 613, Lux = 207.46
+ADC Raw = 622, Lux = 211.24
+ADC Raw = 613, Lux = 207.46
+ADC Raw = 645, Lux = 220.90
+ADC Raw = 655, Lux = 225.10
+ADC Raw = 638, Lux = 217.96
+ADC Raw = 1331, Lux = 509.02
+ADC Raw = 588, Lux = 196.96
+ADC Raw = 1349, Lux = 516.58
+ADC Raw = 719, Lux = 251.98
+ADC Raw = 723, Lux = 253.66
+ADC Raw = 1444, Lux = 556.48
+ADC Raw = 1456, Lux = 561.52
+ADC Raw = 1463, Lux = 564.46
+ADC Raw = 1465, Lux = 565.30
+ADC Raw = 1433, Lux = 551.86
+ADC Raw = 691, Lux = 240.22
+ADC Raw = 647, Lux = 221.74
+ADC Raw = 683, Lux = 236.86
+ADC Raw = 672, Lux = 232.24
+ADC Raw = 673, Lux = 232.66
+ADC Raw = 665, Lux = 229.30
+ADC Raw = 658, Lux = 226.36
+ADC Raw = 695, Lux = 241.90
+ADC Raw = 675, Lux = 233.50
+ADC Raw = 659, Lux = 226.78
+ADC Raw = 659, Lux = 226.78
+ADC Raw = 695, Lux = 241.90
+ADC Raw = 660, Lux = 227.20
+ADC Raw = 630, Lux = 214.60
+ADC Raw = 594, Lux = 199.48
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 629, Lux = 214.18
+ADC Raw = 665, Lux = 229.30
+ADC Raw = 676, Lux = 233.92
+ADC Raw = 658, Lux = 226.36
+ADC Raw = 647, Lux = 221.74
+ADC Raw = 643, Lux = 220.06
+ADC Raw = 655, Lux = 225.10
+ADC Raw = 660, Lux = 227.20
+ADC Raw = 622, Lux = 211.24
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 634, Lux = 216.28
+ADC Raw = 611, Lux = 206.62
+ADC Raw = 639, Lux = 218.38
+ADC Raw = 628, Lux = 213.76
+ADC Raw = 885, Lux = 321.70
+ADC Raw = 903, Lux = 329.26
+ADC Raw = 954, Lux = 350.68
+ADC Raw = 912, Lux = 333.04
+ADC Raw = 905, Lux = 330.10
+ADC Raw = 917, Lux = 335.14
+ADC Raw = 900, Lux = 328.00
+ADC Raw = 950, Lux = 349.00
+ADC Raw = 944, Lux = 346.48
+ADC Raw = 937, Lux = 343.54
+ADC Raw = 919, Lux = 335.98
+ADC Raw = 945, Lux = 346.90
+ADC Raw = 944, Lux = 346.48
+ADC Raw = 895, Lux = 325.90
+ADC Raw = 925, Lux = 338.50
+ADC Raw = 911, Lux = 332.62
+ADC Raw = 901, Lux = 328.42
+ADC Raw = 907, Lux = 330.94
+ADC Raw = 959, Lux = 352.78
+ADC Raw = 903, Lux = 329.26
+ADC Raw = 925, Lux = 338.50
+ADC Raw = 905, Lux = 330.10
+ADC Raw = 907, Lux = 330.94
+ADC Raw = 883, Lux = 320.86
+ADC Raw = 899, Lux = 327.58
+ADC Raw = 871, Lux = 315.82
+ADC Raw = 623, Lux = 211.66
+ADC Raw = 636, Lux = 217.12
+ADC Raw = 637, Lux = 217.54
+ADC Raw = 623, Lux = 211.66
+ADC Raw = 621, Lux = 210.82
+ADC Raw = 648, Lux = 222.16
+ADC Raw = 641, Lux = 219.22
+ADC Raw = 639, Lux = 218.38
+ADC Raw = 689, Lux = 239.38
+ADC Raw = 633, Lux = 215.86
+ADC Raw = 635, Lux = 216.70
+ADC Raw = 607, Lux = 204.94
+ADC Raw = 609, Lux = 205.78
+ADC Raw = 619, Lux = 209.98
+ADC Raw = 620, Lux = 210.40
+ADC Raw = 629, Lux = 214.18
+ADC Raw = 639, Lux = 218.38
+ADC Raw = 593, Lux = 199.06
+ADC Raw = 615, Lux = 208.30
+ADC Raw = 617, Lux = 209.14
+ADC Raw = 614, Lux = 207.88
+ADC Raw = 621, Lux = 210.82
+ADC Raw = 630, Lux = 214.60
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 617, Lux = 209.14
+ADC Raw = 620, Lux = 210.40
+ADC Raw = 629, Lux = 214.18
+ADC Raw = 640, Lux = 218.80
+ADC Raw = 630, Lux = 214.60
+ADC Raw = 608, Lux = 205.36
+ADC Raw = 605, Lux = 204.10
+ADC Raw = 587, Lux = 196.54
+ADC Raw = 731, Lux = 257.02
+ADC Raw = 765, Lux = 271.30
+ADC Raw = 703, Lux = 245.26
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 656, Lux = 225.52
+ADC Raw = 703, Lux = 245.26
+ADC Raw = 706, Lux = 246.52
+ADC Raw = 698, Lux = 243.16
+ADC Raw = 670, Lux = 231.40
+ADC Raw = 703, Lux = 245.26
+ADC Raw = 740, Lux = 260.80
+ADC Raw = 700, Lux = 244.00
+ADC Raw = 689, Lux = 239.38
+ADC Raw = 674, Lux = 233.08
+ADC Raw = 696, Lux = 242.32
+ADC Raw = 611, Lux = 206.62
+ADC Raw = 585, Lux = 195.70
+ADC Raw = 638, Lux = 217.96
+ADC Raw = 604, Lux = 203.68
+ADC Raw = 624, Lux = 212.08
+ADC Raw = 597, Lux = 200.74
+ADC Raw = 601, Lux = 202.42
+ADC Raw = 598, Lux = 201.16
+ADC Raw = 599, Lux = 201.58
+ADC Raw = 610, Lux = 206.20
+ADC Raw = 592, Lux = 198.64
+ADC Raw = 603, Lux = 203.26
+ADC Raw = 581, Lux = 194.02
+ADC Raw = 613, Lux = 207.46
+ADC Raw = 586, Lux = 196.12
+ADC Raw = 675, Lux = 233.50
+ADC Raw = 705, Lux = 246.10
+ADC Raw = 699, Lux = 243.58
+ADC Raw = 696, Lux = 242.32
+ADC Raw = 687, Lux = 238.54
+ADC Raw = 729, Lux = 256.18
+ADC Raw = 967, Lux = 356.14
+ADC Raw = 1391, Lux = 534.22
+ADC Raw = 1371, Lux = 525.82
+ADC Raw = 1210, Lux = 458.20
+ADC Raw = 642, Lux = 219.64
+ADC Raw = 350, Lux = 97.00
+ADC Raw = 324, Lux = 86.08
+ADC Raw = 139, Lux = 8.38
+ADC Raw = 4, Lux = -48.32
+ADC Raw = 5, Lux = -47.90
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 0, Lux = -50.00
+ADC Raw = 63, Lux = -23.54
+ADC Raw = 545, Lux = 178.90
+ADC Raw = 1741, Lux = 681.22
+ADC Raw = 1827, Lux = 717.34
+ADC Raw = 1721, Lux = 672.82
+ADC Raw = 1088, Lux = 406.96
+ADC Raw = 1588, Lux = 616.96
