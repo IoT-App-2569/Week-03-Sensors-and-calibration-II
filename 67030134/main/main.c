@@ -55,7 +55,6 @@ void app_main(void)
             
             ESP_LOGI(TAG, "Raw ADC: %d, Lux: %.2f", raw, lux);
         }
-        
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
