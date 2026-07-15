@@ -190,7 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,6 +207,8 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
+    "Week-03-01_Physical_World.md",
+    "67030118/Week-03-Lab-report-03-LDR-and-calibration 1.md",
     "image.png",
     "Untitled",
     "Pasted image 20260714122446.png",
@@ -220,13 +222,11 @@
     "ESP32_Lab/build/67030118_HW.elf",
     "ESP32_Lab/build/67030118_HW.map",
     "67030118/Homework.md",
-    "67030118/Week-03-Lab-report-03-LDR-and-calibration 1.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "Week-03-05-Signal-Integrity.md",
     "Week-03-04-Sensor-vs-Transducer.md",
     "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03-02-Digital-World.md",
-    "Week-03-01_Physical_World.md",
     "Week-03.md",
     "README.md",
     "Images/Lab-Cover.png",
@@ -237,7 +237,6 @@
     "Images/Select_data.png",
     "Images/input_data.png",
     "Images/What_is_LDR.png",
-    "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
     "Week-03-Sensors-and-calibration-II.md"
   ]
 }
