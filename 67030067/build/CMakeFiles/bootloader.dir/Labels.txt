@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/CMakeFiles/bootloader
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/CMakeFiles/bootloader.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/CMakeFiles/bootloader-complete.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/admin/Week-03-Sensors-and-calibration-II/67030067/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
