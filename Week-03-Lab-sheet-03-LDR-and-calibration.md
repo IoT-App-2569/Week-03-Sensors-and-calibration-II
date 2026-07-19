@@ -213,12 +213,10 @@ Lux = 0.0001 × ADC^2 + 0.3 × ADC – 40
 
 ```c
 float lux = 0.5428 * raw - 220.17;
-```
 
 ตัวอย่างแบบ Polynomial:
 
-```c
-float lux = 0.0001 * raw * raw + 0.0179 * raw - 0.861;```
+float lux = 0.0001 * raw * raw + 0.0179 * raw - 0.861;
 
 **หมายเหตุ** 
 
