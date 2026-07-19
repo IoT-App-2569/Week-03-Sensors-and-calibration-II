@@ -11,12 +11,14 @@
             "id": "93ee13b7ff09c935",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "67030109/Pasted image 20260719170853.png"
+                "file": "67030109/Week-03-ReportLab-sheet-03-LDR-and-calibration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260719170853"
+              "icon": "lucide-file",
+              "title": "Week-03-ReportLab-sheet-03-LDR-and-calibration"
             }
           }
         ]
@@ -195,6 +197,10 @@
   },
   "active": "93ee13b7ff09c935",
   "lastOpenFiles": [
+    "Pasted image 20260720023944.png",
+    "67030109/HomeWork 67030109.md",
+    "67030109/Pasted image 20260719170853.png",
+    "67030109/Week-03-ReportLab-sheet-03-LDR-and-calibration.md",
     "67030109/Week-03-ReportLab-sheet-03-LDR-and-calibration 1.md",
     "project/build/log/idf_py_stdout_output_65552",
     "project/build/log/idf_py_stderr_output_65552",
@@ -206,8 +212,6 @@
     "project/build/project.elf",
     "project/build/project.map",
     "project/build/CMakeFiles/project.elf.rsp",
-    "67030109/HomeWork 67030109.md",
-    "67030109/Pasted image 20260719170853.png",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "README.md",
     "Week-03.md",
