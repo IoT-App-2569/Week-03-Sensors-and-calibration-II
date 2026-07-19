@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "file": "67030109/Week-03-ReportLab-sheet-03-LDR-and-calibration 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
+              "title": "Week-03-ReportLab-sheet-03-LDR-and-calibration 1"
             }
           }
         ]
@@ -171,8 +171,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -195,20 +195,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93ee13b7ff09c935",
+  "active": "5ca44c9980b47a65",
   "lastOpenFiles": [
-    "67039999/Week-03-Lab-Report-03-LDR-and-calibration.md",
-    "ESP32_Lab",
+    "project/build/log/idf_py_stdout_output_65552",
+    "project/build/log/idf_py_stderr_output_65552",
+    "project/build/log/idf_py_stdout_output_66512",
+    "project/build/log/idf_py_stderr_output_66512",
+    "project/build/log/idf_py_stdout_output_66532",
+    "project/build/log/idf_py_stderr_output_66532",
+    "project/build/project.bin",
+    "project/build/project.elf",
+    "project/build/project.map",
+    "project/build/CMakeFiles/project.elf.rsp",
+    "project/build/CMakeFiles/project.elf.dir/project_elf_src_esp32.c.obj.d",
+    "67030109/HomeWork 67030109.md",
+    "67030109/Pasted image 20260719170853.png",
+    "67030109/Week-03-ReportLab-sheet-03-LDR-and-calibration 1.md",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-    "67039999",
+    "README.md",
+    "Week-03.md",
+    "Week-03-01_Physical_World.md",
+    "67039999/Week-03-Lab-Report-03-LDR-and-calibration.md",
     "Week-03-05-Signal-Integrity.md",
     "Week-03-04-Sensor-vs-Transducer.md",
     "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03-02-Digital-World.md",
-    "Week-03-01_Physical_World.md",
-    "Week-03.md",
-    "67039999/Homework 67039999.md",
-    "67039999",
-    "README.md"
+    "67039999/Homework 67039999.md"
   ]
 }
