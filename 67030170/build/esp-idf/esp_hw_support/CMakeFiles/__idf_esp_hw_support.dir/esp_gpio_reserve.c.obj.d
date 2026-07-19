@@ -1,0 +1,23 @@
+esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir/esp_gpio_reserve.c.obj: \
+ /Users/beam/esp/esp-idf/components/esp_hw_support/esp_gpio_reserve.c \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/stdatomic.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stdatomic.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/beam/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_types.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stdbool.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /Users/beam/esp/esp-idf/components/esp_hw_support/include/esp_private/esp_gpio_reserve.h \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp32/rev/min/full.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/libc/picolibc/newlib/compatibility.cdep

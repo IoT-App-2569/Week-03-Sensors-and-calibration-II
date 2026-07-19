@@ -1,0 +1,37 @@
+esp-idf/esp_rom/CMakeFiles/__idf_esp_rom.dir/patches/esp_rom_efuse.c.obj: \
+ /Users/beam/esp/esp-idf/components/esp_rom/patches/esp_rom_efuse.c \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/assert.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdlib.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/alloca.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_wait.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/assert.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/beam/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/register/soc/efuse_reg.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/efuse_defs.h \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/idf/target/esp32s3.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/system/single/core/mode.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/system/check/int/level/5.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/system/check/int/level/4.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/libc/picolibc/newlib/compatibility.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/compiler/assert/ndebug/evaluate.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/compiler/optimization/assertions/silent.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp32/rev/min/full.cdep

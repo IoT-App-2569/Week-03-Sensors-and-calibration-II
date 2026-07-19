@@ -1,0 +1,22 @@
+esp-idf/esp_hal_pmu/CMakeFiles/__idf_esp_hal_pmu.dir/brownout_hal.c.obj: \
+ /Users/beam/esp/esp-idf/components/esp_hal_pmu/brownout_hal.c \
+ /Users/beam/esp/esp-idf/components/esp_hal_pmu/esp32/include/hal/brownout_ll.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stdbool.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/register/soc/rtc_cntl_struct.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /Users/beam/esp/esp-idf/components/hal/include/hal/psdet_types.h \
+ /Users/beam/esp/esp-idf/components/esp_hal_pmu/include/hal/brownout_hal.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/beam/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/libc/picolibc/newlib/compatibility.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp32/rev/min/full.cdep

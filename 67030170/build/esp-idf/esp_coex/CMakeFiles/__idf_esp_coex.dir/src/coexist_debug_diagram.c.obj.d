@@ -1,0 +1,20 @@
+esp-idf/esp_coex/CMakeFiles/__idf_esp_coex.dir/src/coexist_debug_diagram.c.obj: \
+ /Users/beam/esp/esp-idf/components/esp_coex/src/coexist_debug_diagram.c \
+ /Users/beam/esp/esp-idf/components/esp_coex/include/private/esp_coexist_debug.h \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/idf/target/esp32.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/diag/general.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/diag/wifi.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/count.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx0.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx1.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx2.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx3.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx4.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx5.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx6.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx7.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx8.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx9.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx10.cdep \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/config/esp/coex/gpio/debug/io/idx11.cdep

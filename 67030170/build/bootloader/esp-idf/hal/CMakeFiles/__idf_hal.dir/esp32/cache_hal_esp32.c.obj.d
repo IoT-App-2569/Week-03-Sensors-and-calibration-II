@@ -1,0 +1,36 @@
+esp-idf/hal/CMakeFiles/__idf_hal.dir/esp32/cache_hal_esp32.c.obj: \
+ /Users/beam/esp/esp-idf/components/hal/esp32/cache_hal_esp32.c \
+ /Users/beam/esp/esp-idf/components/hal/esp32/include/hal/cache_ll.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stdbool.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/register/soc/dport_reg.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdint.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/cdefs.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/config.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/ieeefp.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/features.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/picolibc.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/_default_types.h \
+ /Users/beam/Desktop/Week-03-Sensors-and-calibration-II/67030170/build/bootloader/config/sdkconfig.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/16.1.0/include/stddef.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_stdint.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_intsup.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_assert.h \
+ /Users/beam/esp/esp-idf/components/esp_libc/platform_include/assert.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/stdlib.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/machine/stdlib.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/alloca.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_locale.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/sys/_wait.h \
+ /Users/beam/.espressif/tools/xtensa-esp-elf/esp-16.1.0_20260609/xtensa-esp-elf/picolibc/include/assert.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/soc_caps.h \
+ /Users/beam/esp/esp-idf/components/soc/include/soc/soc_caps_eval.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/interrupts.h \
+ /Users/beam/esp/esp-idf/components/esp_common/include/esp_bit_defs.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/register/soc/reg_base.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /Users/beam/esp/esp-idf/components/soc/esp32/include/soc/ext_mem_defs.h \
+ /Users/beam/esp/esp-idf/components/hal/include/hal/cache_types.h \
+ /Users/beam/esp/esp-idf/components/hal/platform_port/include/hal/assert.h \
+ /Users/beam/esp/esp-idf/components/hal/include/hal/cache_hal.h
