@@ -317,4 +317,8 @@ Code ที่ใช้ สามารถ reuse code  จากการ calibr
 2. ถ้าทำใบงานนี้อีกครั้ง จะปรับปรุงอะไร?
    การเก็บข้อมูล
 3. ส่วนไหนที่คิดว่าตนเองเข้าใจดีมาก?
+<<<<<<< HEAD:67030169/Week-03-Lab-Report-03-LDR-and-calibration.md
    อ่านค่า ADC ของ ESP32
+=======
+   อ่านค่า ADC ของ ESP32
+>>>>>>> 29d5cef263d00516c8ec2004aef93a7e5ebf4800:Week-03-Lab-sheet-03-LDR-and-calibration.md
