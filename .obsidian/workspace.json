@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "file": "67030110/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration 1"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-                "followCursor": false,
+                "file": "Untitled.base",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week-03-Lab-sheet-03-LDR-and-calibration"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -195,20 +195,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93ee13b7ff09c935",
+  "active": "85788eb0f92ec94b",
   "lastOpenFiles": [
-    "67039999/Week-03-Lab-Report-03-LDR-and-calibration.md",
-    "ESP32_Lab",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
-    "67039999",
-    "Week-03-05-Signal-Integrity.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-02-Digital-World.md",
+    "67030110/Week-03-Lab-sheet-03-LDR-and-calibration 1.md",
+    "Pasted image 20260714122500.png",
+    "67030110/build/log/idf_py_stdout_output_17324",
+    "67030110/build/log/idf_py_stderr_output_17324",
+    "67030110/build/CMakeFiles/rules.ninja.tmpa3ccb",
+    "67030110/build/build.ninja.tmpa9645",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/cmTC_e5f6f",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/CMakeFiles/cmTC_e5f6f.dir/src.c.obj",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/CMakeCache.txt.tmp3d032",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/build.ninja",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/CMakeFiles/rules.ninja",
+    "67030110/build/CMakeFiles/CMakeScratch/TryCompile-vvngpn/CMakeFiles/TargetDirectories.txt",
+    "67030110/Homework 67030110.md",
     "Week-03-01_Physical_World.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
     "Week-03.md",
-    "67039999/Homework 67039999.md",
-    "67039999",
-    "README.md"
+    "README.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Images/Lab-Cover.png",
+    "Images/Week-03-Cover.png",
+    "Images/Add_Scatter_Chart.png",
+    "Pasted image 20260713013048.png",
+    "Images/Add-Trend-Line.png",
+    "Images/Select_data.png",
+    "Images/input_data.png",
+    "Images/What_is_LDR.png",
+    "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
+    "Week-03-Sensors-and-calibration-II.md"
   ]
 }
