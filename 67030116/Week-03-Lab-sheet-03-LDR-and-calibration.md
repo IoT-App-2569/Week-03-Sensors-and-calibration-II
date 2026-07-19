@@ -179,7 +179,9 @@ void app_main(void)
 | ห้องปกติ | 2630    | 242              |
 | ใต้โคมไฟ | 3038    | 301              |
 | กลางแจ้ง |         |                  |
-![[Pasted image 20260720030424.png]]
+
+<img width="972" height="471" alt="image" src="https://github.com/user-attachments/assets/07999cdf-43c1-48df-ad45-6464ccb13585" />
+
 **เป้าหมาย:** สร้างกราฟ ADC → Lux เพื่อหาความสัมพันธ์
 
 ## **ส่วนที่ 5 — การทำกราฟ เพื่อหาสมการ**
