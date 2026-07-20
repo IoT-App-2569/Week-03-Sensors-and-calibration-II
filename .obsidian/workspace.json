@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "file": "67030236/Report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
+              "title": "Report"
+            }
+          },
+          {
+            "id": "1ca5a83e129acae1",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -180,26 +195,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5,
-    "collapsed": true
+    "width": 369.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:เปิด quick switcher": false,
+      "graph:เปิดมุมมองกราฟ": false,
+      "canvas:สร้างผืนผ้าใบใหม่": false,
+      "daily-notes:เปิดโน้ตของวันนี้": false,
+      "templates:แทรกเทมเพลต": false,
+      "command-palette:เปิดกระดานคำสั่ง": false,
+      "bases:สร้างฐานใหม่": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "93ee13b7ff09c935",
+  "active": "1ca5a83e129acae1",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "67030236/Report.md",
+    "67030236~origin_master",
+    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "ยังไม่ได้ตั้งชื่อ.md",
+    "ยังไม่ได้ตั้งชื่อ",
+    "67030236",
+    "67030236",
     "67039999/Week-03-Lab-Report-03-LDR-and-calibration.md",
     "ESP32_Lab",
-    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
     "67039999",
     "Week-03-05-Signal-Integrity.md",
     "Week-03-04-Sensor-vs-Transducer.md",
