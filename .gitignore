@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ESP-IDF build and config
+build/
+sdkconfig.old
+dependencies.lock
+.ninja_deps
+.ninja_log
+compile_commands.json
+managed_components/
+
+# C/C++
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# IDEs and Editors
+.vscode/.DS_Store
+*.swp
+*~

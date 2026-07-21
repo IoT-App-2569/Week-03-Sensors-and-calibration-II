@@ -1,0 +1,15 @@
+# ============================================================
+#  ESP-IDF Kconfig Defaults สำหรับ LDR Calibration
+# ============================================================
+
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_ESPTOOLPY_FLASHFREQ_80M=y
+CONFIG_PARTITION_TABLE_SINGLE_APP=y
+
+# ปิด Wi-Fi / Bluetooth เพื่อลด noise บน ADC
+# (ESP32 WiFi/BT coexist สร้าง ADC noise ได้)
+CONFIG_ESPTOOLPY_FLASH_MODE_DIO=y
+
+# เปิด ADC calibration
+CONFIG_ADC_CAL_EFUSE_TP_ENABLE=y
+CONFIG_ADC_CAL_EFUSE_VREF_ENABLE=y
