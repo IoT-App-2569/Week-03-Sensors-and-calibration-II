@@ -1,0 +1,30 @@
+Command: cmake -G Ninja -B C:\Users\Pleum Juniors\Week-03-Sensors-and-calibration-II\eep32_lab\LDR\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Users\Pleum Juniors\.espressif\python_env\idf6.0_py3.14_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=True C:\Users\Pleum Juniors\Week-03-Sensors-and-calibration-II\eep32_lab\LDR
+CMake Error at C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:67 (message):
+  The C compiler
+
+    "C:/Users/Pleum Juniors/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: 'C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt'
+    
+    Run Build Command(s): C:/Users/PLEUMJ~1/ESPRES~1/tools/ninja/112~1.1/ninja.exe -v cmTC_b95cc
+    [1/2] C:\Users\PLEUMJ~1\ESPRES~1\tools\XTENSA~2\ESP-15~1.0_2\XTENSA~1\bin\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags" -o CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj -c "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt/testCCompiler.c"
+    FAILED: CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj 
+    C:\Users\PLEUMJ~1\ESPRES~1\tools\XTENSA~2\ESP-15~1.0_2\XTENSA~1\bin\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags" -o CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj -c "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt/testCCompiler.c"
+    cc1.exe: fatal error: Both 'XTENSA_GNU_CONFIG' and "-dynconfig=" specified but pointed different files: "'C:\Users\PLEUMJ~1\ESPRES~1\tools\XTENSA~2\ESP-15~1.0_2\XTENSA~1\lib\XTENSA~1.SO'" "'xtensa_esp32.so'"
+    compilation terminated.
+    ninja: build stopped: subcommand failed.
+    
+    
+
+
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)
+  CMakeLists.txt:4 (project)
+
+

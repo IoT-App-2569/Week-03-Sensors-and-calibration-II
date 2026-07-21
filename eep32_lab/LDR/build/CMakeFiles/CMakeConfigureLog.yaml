@@ -1,0 +1,160 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: Generic -  - 
+      The host system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/Pleum Juniors/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe 
+      Build flags: @C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/4.0.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/Pleum Juniors/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-g++.exe 
+      Build flags: @C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cxxflags
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/4.0.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:1271 (message)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineASMCompiler.cmake:139 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-esp-elf-gcc.exe (crosstool-NG esp-15.2.0_20251204) 15.2.0
+      Copyright (C) 2025 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-4eg3o9"
+      binary: "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-4eg3o9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "@\"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags\""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "@\"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/ldflags\""
+      CMAKE_MODULE_PATH: "C:/esp/v6.0.2/esp-idf/tools/cmake;C:/esp/v6.0.2/esp-idf/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-4eg3o9'
+        
+        Run Build Command(s): C:/Users/PLEUMJ~1/ESPRES~1/tools/ninja/112~1.1/ninja.exe -v cmTC_2a04b
+        [1/2] C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\bin\\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags"    -v -o CMakeFiles/cmTC_2a04b.dir/CMakeCCompilerABI.c.obj -c "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
+        FAILED: CMakeFiles/cmTC_2a04b.dir/CMakeCCompilerABI.c.obj 
+        C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\bin\\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags"    -v -o CMakeFiles/cmTC_2a04b.dir/CMakeCCompilerABI.c.obj -c "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\bin\\XT66A4~1.EXE
+        Target: xtensa-esp-elf
+        Configured with: /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-host_w64-mingw32 --target=xtensa-esp-elf --prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --exec_prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf --with-local-prefix=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-sysroot=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf --with-native-system-header-dir=/include --with-headers=/builds/idf/crosstool-NG/builds/xtensa-esp-elf/xtensa-esp-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-15.2.0_20251204' --disable-__cxa_atexit --enable-cxx-flags='-ffunction-sections -fdata-sections' --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpfr=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-mpc=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --with-isl=/builds/idf/crosstool-NG/.build/xtensa-esp-elf/buildtools/complibs-host --enable-lto --enable-target-optspace --without-long-double-128 --enable-plugin --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-libstdcxx-time=yes --disable-win32-utf8-manifest --with-gnu-ld
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (crosstool-NG esp-15.2.0_20251204) 
+        COLLECT_GCC_OPTIONS='-mdynconfig=xtensa_esp32.so' '-v' '-o' 'CMakeFiles/cmTC_2a04b.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2a04b.dir/'
+         C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../libexec/gcc/xtensa-esp-elf/15.2.0/cc1.exe -quiet -v -imultilib esp32 -iprefix C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../lib/gcc/xtensa-esp-elf/15.2.0/ -isysroot C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../xtensa-esp-elf C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_2a04b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mdynconfig=xtensa_esp32.so -version -o C:\\Users\\PLEUMJ~1\\AppData\\Local\\Temp\\ccf8A8sG.s
+        GNU C23 (crosstool-NG esp-15.2.0_20251204) version 15.2.0 (xtensa-esp-elf)
+        	compiled by GNU C version 6.3.0 20170516, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include"
+        ignoring nonexistent directory "C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../xtensa-esp-elf/builds/idf/crosstool-NG/builds/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/../../../../include"
+        ignoring duplicate directory "C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/lib/gcc/../../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include"
+        ignoring duplicate directory "C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../xtensa-esp-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include
+         C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../lib/gcc/xtensa-esp-elf/15.2.0/include-fixed
+         C:/Users/PLEUMJ~1/ESPRES~1/tools/XTENSA~2/ESP-15~1.0_2/XTENSA~1/bin/../lib/gcc/xtensa-esp-elf/15.2.0/../../../../xtensa-esp-elf/include
+        End of search list.
+        cc1.exe: fatal error: Both 'XTENSA_GNU_CONFIG' and "-dynconfig=" specified but pointed different files: "'C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\lib\\XTENSA~1.SO'" "'xtensa_esp32.so'"
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Pleum Juniors/.espressif/tools/cmake/4.0.3/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:56 (try_compile)"
+      - "C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:622 (__project)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Check for working C compiler: C:/Users/Pleum Juniors/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc.exe"
+    directories:
+      source: "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt"
+      binary: "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "@\"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags\""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "@\"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/ldflags\""
+      CMAKE_MODULE_PATH: "C:/esp/v6.0.2/esp-idf/tools/cmake;C:/esp/v6.0.2/esp-idf/tools/cmake/third_party"
+    buildResult:
+      variable: "CMAKE_C_COMPILER_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt'
+        
+        Run Build Command(s): C:/Users/PLEUMJ~1/ESPRES~1/tools/ninja/112~1.1/ninja.exe -v cmTC_b95cc
+        [1/2] C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\bin\\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags" -o CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj -c "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt/testCCompiler.c"
+        FAILED: CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj 
+        C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\bin\\XT8994~1.EXE   @"C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/toolchain/cflags" -o CMakeFiles/cmTC_b95cc.dir/testCCompiler.c.obj -c "C:/Users/Pleum Juniors/Week-03-Sensors-and-calibration-II/eep32_lab/LDR/build/CMakeFiles/CMakeScratch/TryCompile-ztv2kt/testCCompiler.c"
+        cc1.exe: fatal error: Both 'XTENSA_GNU_CONFIG' and "-dynconfig=" specified but pointed different files: "'C:\\Users\\PLEUMJ~1\\ESPRES~1\\tools\\XTENSA~2\\ESP-15~1.0_2\\XTENSA~1\\lib\\XTENSA~1.SO'" "'xtensa_esp32.so'"
+        compilation terminated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...
