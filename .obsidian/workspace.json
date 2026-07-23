@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "67030260/Report.md",
+                "file": "67030260/Report ส่งงาน.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Report"
+              "title": "Report ส่งงาน"
             }
           }
         ],
@@ -220,18 +220,20 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "830c2761d77e8c75",
+  "active": "85788eb0f92ec94b",
   "lastOpenFiles": [
-    "README.md",
-    "67030260/Report.md",
+    "Images/1_Mechanical_Energy.png",
+    "67030260/Report ส่งงาน.md",
+    "Pasted image 20260723192545.png",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
+    "README.md",
     "Week-03.md",
     "67030260",
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
@@ -241,7 +243,6 @@
     "Images/input_data.png",
     "Images/What_is_LDR.png",
     "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
-    "Images/LDR_and_R10k.png",
     "Week-03-Sensors-and-calibration-II.md"
   ]
 }
