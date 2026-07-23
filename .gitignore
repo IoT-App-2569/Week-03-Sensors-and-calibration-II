@@ -1,0 +1,24 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig.old
+sdkconfig
+
+# Managed components
+managed_components/
+
+# VS Code
+.vscode/
+
+# Obsidian
+.obsidian/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
