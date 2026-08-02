@@ -31,7 +31,15 @@ void app_main(void)
         int raw = adc1_get_raw(ADC_CHANNEL);
         // 4) แปลงเป็นแรงดัน (mV)
         uint32_t voltage = esp_adc_cal_raw_to_voltage(raw, &adc_chars);
-        printf("ADC Raw = %d, Voltage = %d mV\n", raw, (int)voltage);
+        
+        // 5) คำนวณค่า Lux จากสมการ Calibration (Polynomial อันดับ 2)
+        float raw_f = (float)raw;
+        float lux = 0.0000487793 * raw_f * raw_f - 0.110363 * raw_f + 23.773859;
+        if (lux < 0.0) {
+            lux = 0.0; // ป้องกันไม่ให้ค่า Lux ติดลบในสภาพแสงที่มืดจัด
+        }
+        
+        printf("ADC Raw = %d, Voltage = %d mV, Calibrated Lux = %.2f\n", raw, (int)voltage, lux);
         vTaskDelay(pdMS_TO_TICKS(500));
     }
 }
