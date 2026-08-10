@@ -1,6 +1,0 @@
-"-specs=D:/Pe3term1/Iot_Jan_Go/Week03/Week-03-Sensors-and-calibration-II/LDR/build/bootloader/specs/picolibc.specs"
--Wno-frame-address
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
