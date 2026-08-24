@@ -1,4 +1,4 @@
-# **ใบงานปฏิบัติการ: การใช้งาน LDR และการทำ Calibration**
+# **ใบงานปฏิบัติการ: การใช้งาน LDR และการทำ Calibration**  
 
 
 ![](Images/Lab-Cover.png)
