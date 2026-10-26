@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "File explorer"
             }
           },
           {
@@ -194,19 +194,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:เปิด quick switcher": false,
+      "graph:เปิดมุมมองกราฟ": false,
+      "canvas:สร้างผืนผ้าใบใหม่": false,
+      "daily-notes:เปิดโน้ตของวันนี้": false,
+      "templates:แทรกเทมเพลต": false,
+      "command-palette:เปิดกระดานคำสั่ง": false,
+      "bases:สร้างฐานใหม่": false,
       "obsidian-git:Open Git source control": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "914d1bc10e559287",
+  "active": "71230346fe056fc1",
   "lastOpenFiles": [
+    "LDR_Calibration/build/bootloader/bootloader.bin",
+    "LDR_Calibration/build/bootloader/bootloader.elf",
+    "LDR_Calibration/build/bootloader/bootloader.map",
+    "LDR_Calibration/build/bootloader/CMakeFiles/bootloader.elf.rsp",
+    "LDR_Calibration/build/bootloader/esp-idf/main/libmain.a",
+    "LDR_Calibration/build/bootloader/esp-idf/xtensa/stP1kAlM",
+    "LDR_Calibration/build/bootloader/esp-idf/xtensa/libxtensa.a",
+    "LDR_Calibration/build/bootloader/esp-idf/soc/stP1kAlM",
+    "LDR_Calibration/build/bootloader/esp-idf/soc/libsoc.a",
+    "LDR_Calibration/build/bootloader/esp-idf/hal/stP1kAlM",
+    "LDR_Calibration/build/bootloader/esp-idf/hal/libhal.a",
     "Week-03-01_Physical_World.md",
     "Week-03-02-Digital-World.md",
     "Week-03-03-Physical to Electrical to Digital.md",

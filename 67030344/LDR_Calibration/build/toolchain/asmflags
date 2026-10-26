@@ -1,0 +1,6 @@
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+"-specs=D:/67030344/Week-03-Sensors-and-calibration-II/LDR_Calibration/build/specs/picolibc.specs"
