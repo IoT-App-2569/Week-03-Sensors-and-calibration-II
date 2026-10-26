@@ -1,0 +1,9 @@
+--- idf.py monitor on /dev/cu.usbserial-0001 (baud 115200) ---
+I (310) ldr_app: Starting LDR Light Sensing Engine...
+ADC Raw: 125 | Light: 10 Lux
+ADC Raw: 382 | Light: 49 Lux
+ADC Raw: 895 | Light: 147 Lux
+ADC Raw: 1448 | Light: 295 Lux
+ADC Raw: 1918 | Light: 491 Lux
+ADC Raw: 2452 | Light: 790 Lux
+ADC Raw: 2978 | Light: 1182 Lux
