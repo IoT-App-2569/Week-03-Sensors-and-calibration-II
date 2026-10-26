@@ -1,4 +1,0 @@
-Voltage Divider Circuit for LDR:
-+3.3V --- [ 10k Resistor ] ---+--- [ LDR ] --- GND
-                              |
-                           GPIO34 (ADC1_CH6)
