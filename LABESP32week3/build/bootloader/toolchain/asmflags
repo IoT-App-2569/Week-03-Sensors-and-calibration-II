@@ -1,0 +1,6 @@
+"-specs=D:/Week-03-Sensors-and-calibration-II/LABESP32week3/build/bootloader/specs/picolibc.specs"
+-Wno-frame-address
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
