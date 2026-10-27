@@ -1,0 +1,10 @@
+Condition,Raw_ADC,Phone_Lux,Code_Lux,Absolute_Error_Lux,Percent_Error
+Calibration_Dark,300,5,5,0,0.0%
+Calibration_UnderDesk,500,30,27,3,10.0%
+Calibration_Classroom,1200,150,118,32,21.3%
+Calibration_DeskLamp,1800,280,284,4,1.4%
+Calibration_Window,2500,550,578,28,5.1%
+Calibration_Torch,3500,1200,1190,10,0.8%
+Test_BehindBookshelf,600,45,33,12,26.5%
+Test_ComputerScreen,1500,200,190,10,4.8%
+Test_Balcony,2800,700,738,38,5.4%
