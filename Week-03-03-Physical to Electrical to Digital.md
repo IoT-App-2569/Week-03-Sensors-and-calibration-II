@@ -5,8 +5,32 @@
 ภาพรวมของกระบวนการคือ
 
 
-<p align="center"><img src="Images/Fig_Week-03-03-Physical_to_Electrical_to_Digital_2026-10-27T08-08-45_academic.svg" alt="Week-03-03-Physical_to_Electrical_to_Digital" width="800" ></p>
-<p align="center">  การเชื่อมสองโลก: จาก Physical → Electrical → Digital</p>
+```mermaid
+flowchart LR
+
+subgraph "ตัวอย่าง"
+direction LR
+a1["อุณหภูมิ 25°C"]
+a2[แรงดัน 0.25V]
+a3[ADC = 1024]
+a1-->a2
+a2-->a3
+end
+
+subgraph "ตัวอย่าง"
+direction LR
+a4["แรงกด 100kPa"]
+a5["กระแส 4mA"]
+a6["ค่าดิจิทัล 4000"]
+a4-->a5
+a5-->a6
+end
+
+subgraph "กระบวนการแปลง"
+direction LR
+Physical-->Electrical-->Digital
+end
+```
 
 
  
@@ -65,7 +89,6 @@ ADC คืออุปกรณ์ที่แปลงแรงดันไฟ�
 เมื่อข้อมูลอยู่ในรูปดิจิทัลแล้ว MCU สามารถ
 
 ### **ประมวลผล (Processing)**
-
 - คำนวณค่าเฉลี่ย
 - ตรวจจับความผิดปกติ
 - ทำ PID control
@@ -88,7 +111,6 @@ ADC คืออุปกรณ์ที่แปลงแรงดันไฟ�
 - BLE
 - LoRaWAN
 - MQTT ไปยัง Cloud
-
 ### **แสดงผล (Visualization)**
 
 - Dashboard

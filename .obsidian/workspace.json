@@ -11,14 +11,14 @@
             "id": "914d1bc10e559287",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "67039999/Report.md",
-                "bFile": "67039999/Report.md",
-                "aRef": ""
+                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Report  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Week-03-Lab-sheet-03-LDR-and-calibration"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -207,16 +209,24 @@
   },
   "active": "914d1bc10e559287",
   "lastOpenFiles": [
+    "67030181/LDR_calibration/CMakeLists.txt",
+    "67030181/LDR_calibration/main/main.c",
+    "67030181/LDR_calibration/main/CMakeLists.txt",
+    "67030181/LDR_calibration/main",
+    "67030181/LDR_calibration",
+    "67030181/LDR_/main",
+    "67030181/LDR_",
     "67039999/Report.md",
-    "Week-03.md",
-    "67039999",
-    "Week-03-01_Physical_World.md",
-    "Week-03-02-Digital-World.md",
-    "Week-03-03-Physical to Electrical to Digital.md",
-    "Week-03-04-Sensor-vs-Transducer.md",
-    "Week-03-05-Signal-Integrity.md",
+    "67030181",
     "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-01_Physical_World.md",
+    "Week-03.md",
+    "Week-03-05-Signal-Integrity.md",
     "README.md",
+    "67039999",
     "Images/Lab-Cover.png",
     "Images/Week-03-Cover.png",
     "Images/Add_Scatter_Chart.png",
