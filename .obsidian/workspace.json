@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "91521bdf6d74a768",
+    "type": "split",
+    "children": [
+      {
+        "id": "9d3a4b9c2c208701",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "914d1bc10e559287",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "67039999/Report.md",
+                "bFile": "67039999/Report.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Report  (Working Tree)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8188bb1ed869ea02",
+    "type": "split",
+    "children": [
+      {
+        "id": "efed9a0a7b73a077",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71230346fe056fc1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "4adf95583b63587b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b717b6a72d4c56b6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 219.5
+  },
+  "right": {
+    "id": "177091d43df982aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "e76243e442db967e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d99814780b6af49f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Week-03-03-Physical to Electrical to Digital"
+            }
+          },
+          {
+            "id": "dd15304c76e29e26",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Week-03-03-Physical to Electrical to Digital.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Week-03-03-Physical to Electrical to Digital"
+            }
+          },
+          {
+            "id": "218cb500d48c9f8f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "10288cb5bc2a41fb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "75abcf953e966226",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Week-03-Lab-sheet-03-LDR-and-calibration"
+            }
+          },
+          {
+            "id": "85788eb0f92ec94b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "50f4ebebce540ee8",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "mermaid-toolbar-view"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 396.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "914d1bc10e559287",
+  "lastOpenFiles": [
+    "67039999/Report.md",
+    "Week-03.md",
+    "67039999",
+    "Week-03-01_Physical_World.md",
+    "Week-03-02-Digital-World.md",
+    "Week-03-03-Physical to Electrical to Digital.md",
+    "Week-03-04-Sensor-vs-Transducer.md",
+    "Week-03-05-Signal-Integrity.md",
+    "Week-03-Lab-sheet-03-LDR-and-calibration.md",
+    "README.md",
+    "Images/Lab-Cover.png",
+    "Images/Week-03-Cover.png",
+    "Images/Add_Scatter_Chart.png",
+    "Pasted image 20260713013048.png",
+    "Images/Add-Trend-Line.png",
+    "Images/Select_data.png",
+    "Images/input_data.png",
+    "Images/What_is_LDR.png",
+    "Gemini_Generated_Image_bahsrjbahsrjbahs 1.png",
+    "Images/LDR_and_R10k.png",
+    "Week-03-Sensors-and-calibration-II.md"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "readableLineLength": false,
+  "newLinkFormat": "relative",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "showLineNumber": true
+}
