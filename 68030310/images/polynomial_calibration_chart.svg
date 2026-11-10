@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%" style="background:#ffffff; font-family: Segoe UI, Arial, sans-serif;">
+<text x="400.0" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">LDR 2nd-Degree Polynomial Calibration (Scatter Plot)</text>
+<text x="400.0" y="50" text-anchor="middle" font-size="12" fill="#64748b">Student ID: 68030310 | ESP32 ADC 12-bit (GPIO 34) vs Phone Lux Meter</text>
+<rect x="80" y="60" width="670" height="400" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="80.0" y1="60" x2="80.0" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="80.0" y="480" text-anchor="middle" font-size="11" fill="#64748b">0</text>
+<line x1="161.8070818070818" y1="60" x2="161.8070818070818" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="161.8070818070818" y="480" text-anchor="middle" font-size="11" fill="#64748b">500</text>
+<line x1="243.6141636141636" y1="60" x2="243.6141636141636" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="243.6141636141636" y="480" text-anchor="middle" font-size="11" fill="#64748b">1000</text>
+<line x1="325.42124542124543" y1="60" x2="325.42124542124543" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="325.42124542124543" y="480" text-anchor="middle" font-size="11" fill="#64748b">1500</text>
+<line x1="407.2283272283272" y1="60" x2="407.2283272283272" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="407.2283272283272" y="480" text-anchor="middle" font-size="11" fill="#64748b">2000</text>
+<line x1="489.0354090354091" y1="60" x2="489.0354090354091" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="489.0354090354091" y="480" text-anchor="middle" font-size="11" fill="#64748b">2500</text>
+<line x1="570.8424908424909" y1="60" x2="570.8424908424909" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="570.8424908424909" y="480" text-anchor="middle" font-size="11" fill="#64748b">3000</text>
+<line x1="652.6495726495726" y1="60" x2="652.6495726495726" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="652.6495726495726" y="480" text-anchor="middle" font-size="11" fill="#64748b">3500</text>
+<line x1="734.4566544566544" y1="60" x2="734.4566544566544" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="734.4566544566544" y="480" text-anchor="middle" font-size="11" fill="#64748b">4000</text>
+<line x1="80" y1="460.0" x2="750" y2="460.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="464.0" text-anchor="end" font-size="11" fill="#64748b">0</text>
+<line x1="80" y1="406.6666666666667" x2="750" y2="406.6666666666667" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="410.6666666666667" text-anchor="end" font-size="11" fill="#64748b">200</text>
+<line x1="80" y1="353.3333333333333" x2="750" y2="353.3333333333333" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="357.3333333333333" text-anchor="end" font-size="11" fill="#64748b">400</text>
+<line x1="80" y1="300.0" x2="750" y2="300.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="304.0" text-anchor="end" font-size="11" fill="#64748b">600</text>
+<line x1="80" y1="246.66666666666666" x2="750" y2="246.66666666666666" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="250.66666666666666" text-anchor="end" font-size="11" fill="#64748b">800</text>
+<line x1="80" y1="193.33333333333337" x2="750" y2="193.33333333333337" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="197.33333333333337" text-anchor="end" font-size="11" fill="#64748b">1000</text>
+<line x1="80" y1="140.0" x2="750" y2="140.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="144.0" text-anchor="end" font-size="11" fill="#64748b">1200</text>
+<line x1="80" y1="86.66666666666669" x2="750" y2="86.66666666666669" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="90.66666666666669" text-anchor="end" font-size="11" fill="#64748b">1400</text>
+<text x="415.0" y="508" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">ESP32 ADC Raw Value (12-bit, 0 - 4095)</text>
+<text x="25" y="260.0" text-anchor="middle" transform="rotate(-90 25 260.0)" font-size="13" font-weight="600" fill="#334155">Light Intensity (Lux)</text>
+<polyline points="80.0,431.8 83.3,432.9 86.5,434.1 89.8,435.1 93.1,436.2 96.4,437.2 99.6,438.2 102.9,439.1 106.2,440.1 109.5,441.0 112.7,441.8 116.0,442.7 119.3,443.5 122.5,444.2 125.8,445.0 129.1,445.7 132.4,446.4 135.6,447.0 138.9,447.6 142.2,448.2 145.4,448.8 148.7,449.3 152.0,449.8 155.3,450.2 158.5,450.7 161.8,451.1 165.1,451.4 168.4,451.8 171.6,452.1 174.9,452.3 178.2,452.6 181.4,452.8 184.7,453.0 188.0,453.1 191.3,453.3 194.5,453.4 197.8,453.4 201.1,453.4 204.3,453.4 207.6,453.4 210.9,453.3 214.2,453.2 217.4,453.1 220.7,453.0 224.0,452.8 227.3,452.5 230.5,452.3 233.8,452.0 237.1,451.7 240.3,451.3 243.6,451.0 246.9,450.6 250.2,450.1 253.4,449.7 256.7,449.2 260.0,448.6 263.2,448.1 266.5,447.5 269.8,446.9 273.1,446.2 276.3,445.5 279.6,444.8 282.9,444.1 286.2,443.3 289.4,442.5 292.7,441.6 296.0,440.8 299.2,439.9 302.5,438.9 305.8,438.0 309.1,437.0 312.3,435.9 315.6,434.9 318.9,433.8 322.1,432.7 325.4,431.5 328.7,430.4 332.0,429.1 335.2,427.9 338.5,426.6 341.8,425.3 345.1,424.0 348.3,422.6 351.6,421.2 354.9,419.8 358.1,418.3 361.4,416.8 364.7,415.3 368.0,413.8 371.2,412.2 374.5,410.6 377.8,408.9 381.1,407.3 384.3,405.5 387.6,403.8 390.9,402.0 394.1,400.2 397.4,398.4 400.7,396.5 404.0,394.7 407.2,392.7 410.5,390.8 413.8,388.8 417.0,386.8 420.3,384.7 423.6,382.7 426.9,380.5 430.1,378.4 433.4,376.2 436.7,374.0 440.0,371.8 443.2,369.5 446.5,367.2 449.8,364.9 453.0,362.6 456.3,360.2 459.6,357.7 462.9,355.3 466.1,352.8 469.4,350.3 472.7,347.8 475.9,345.2 479.2,342.6 482.5,339.9 485.8,337.3 489.0,334.6 492.3,331.9 495.6,329.1 498.9,326.3 502.1,323.5 505.4,320.6 508.7,317.7 511.9,314.8 515.2,311.9 518.5,308.9 521.8,305.9 525.0,302.9 528.3,299.8 531.6,296.7 534.8,293.6 538.1,290.4 541.4,287.2 544.7,284.0 547.9,280.7 551.2,277.4 554.5,274.1 557.8,270.8 561.0,267.4 564.3,264.0 567.6,260.5 570.8,257.1 574.1,253.6 577.4,250.0 580.7,246.5 583.9,242.9 587.2,239.3 590.5,235.6 593.7,231.9 597.0,228.2 600.3,224.4 603.6,220.7 606.8,216.8 610.1,213.0 613.4,209.1 616.7,205.2 619.9,201.3 623.2,197.3 626.5,193.3 629.7,189.3 633.0,185.2 636.3,181.1 639.6,177.0 642.8,172.9 646.1,168.7 649.4,164.5 652.6,160.2 655.9,155.9 659.2,151.6 662.5,147.3 665.7,142.9 669.0,138.5 672.3,134.1 675.6,129.6 678.8,125.1 682.1,120.6 685.4,116.1 688.6,111.5 691.9,106.8 695.2,102.2 698.5,97.5 701.7,92.8 705.0,88.1 708.3,83.3 711.6,78.5 714.8,73.7 718.1,68.8 721.4,63.9 724.6,59.0 727.9,54.0 731.2,49.0 734.5,44.0 737.7,38.9 741.0,33.9" fill="none" stroke="#2563eb" stroke-width="3"/>
+<circle cx="148.71794871794873" cy="456.8" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="156.71794871794873" y="448.8" font-size="10" font-weight="600" fill="#1e293b">12 lx (420)</text>
+<circle cx="219.07203907203908" cy="448.8" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="227.07203907203908" y="440.8" font-size="10" font-weight="600" fill="#1e293b">42 lx (850)</text>
+<circle cx="305.7875457875458" cy="428.53333333333336" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="313.7875457875458" y="420.53333333333336" font-size="10" font-weight="600" fill="#1e293b">118 lx (1380)</text>
+<circle cx="403.95604395604397" cy="392.0" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="411.95604395604397" y="384.0" font-size="10" font-weight="600" fill="#1e293b">255 lx (1980)</text>
+<circle cx="502.12454212454213" cy="330.6666666666667" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="510.12454212454213" y="322.6666666666667" font-size="10" font-weight="600" fill="#1e293b">485 lx (2580)</text>
+<circle cx="600.2930402930403" cy="235.99999999999997" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="608.2930402930403" y="227.99999999999997" font-size="10" font-weight="600" fill="#1e293b">840 lx (3180)</text>
+<circle cx="682.1001221001221" cy="110.66666666666669" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="690.1001221001221" y="102.66666666666669" font-size="10" font-weight="600" fill="#1e293b">1310 lx (3680)</text>
+<rect x="100" y="75" width="340" height="95" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="115" y1="100" x2="145" y2="100" stroke="#2563eb" stroke-width="3"/>
+<text x="155" y="104" font-size="11" font-weight="600" fill="#1d4ed8">Polynomial (Deg 2): y = 1.4516e-4·x² - 0.2171·x + 105.76</text>
+<text x="155" y="122" font-size="11" font-weight="bold" fill="#15803d">R² = 0.9954 (Optimal non-linear fit)</text>
+<circle cx="130" cy="145" r="5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="155" y="149" font-size="11" fill="#334155">Measured Calibration Points (7 points)</text>
+</svg>

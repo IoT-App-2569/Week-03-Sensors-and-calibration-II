@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 750 480" width="100%" height="100%" style="background:#ffffff; font-family: Segoe UI, Arial, sans-serif;">
+<text x="375.0" y="32" text-anchor="middle" font-size="17" font-weight="bold" fill="#1e293b">การแปลงสัญญาณอนาล็อกสู่ดิจิทัล ADC ขนาด 3 บิต (8 Discrete Levels)</text>
+<text x="375.0" y="50" text-anchor="middle" font-size="12" fill="#64748b">Resolution = 3-bit (2³ = 8 ระดับ) | Vref = 3.3V | LSB Step = 0.4125V (412.5 mV)</text>
+<rect x="80" y="60" width="620" height="360" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="80" y1="420.0" x2="700" y2="420.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="424.0" text-anchor="end" font-size="11" font-weight="600" fill="#334155">0 (000₂)</text>
+<line x1="80" y1="368.57142857142856" x2="700" y2="368.57142857142856" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="372.57142857142856" text-anchor="end" font-size="11" font-weight="600" fill="#334155">1 (001₂)</text>
+<line x1="80" y1="317.14285714285717" x2="700" y2="317.14285714285717" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="321.14285714285717" text-anchor="end" font-size="11" font-weight="600" fill="#334155">2 (010₂)</text>
+<line x1="80" y1="265.7142857142857" x2="700" y2="265.7142857142857" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="269.7142857142857" text-anchor="end" font-size="11" font-weight="600" fill="#334155">3 (011₂)</text>
+<line x1="80" y1="214.2857142857143" x2="700" y2="214.2857142857143" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="218.2857142857143" text-anchor="end" font-size="11" font-weight="600" fill="#334155">4 (100₂)</text>
+<line x1="80" y1="162.85714285714283" x2="700" y2="162.85714285714283" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="166.85714285714283" text-anchor="end" font-size="11" font-weight="600" fill="#334155">5 (101₂)</text>
+<line x1="80" y1="111.42857142857144" x2="700" y2="111.42857142857144" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="115.42857142857144" text-anchor="end" font-size="11" font-weight="600" fill="#334155">6 (110₂)</text>
+<line x1="80" y1="60.0" x2="700" y2="60.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="70" y="64.0" text-anchor="end" font-size="11" font-weight="600" fill="#334155">7 (111₂)</text>
+<line x1="80.0" y1="60" x2="80.0" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="80.0" y="440" text-anchor="middle" font-size="11" fill="#64748b">0.00V</text>
+<line x1="157.5" y1="60" x2="157.5" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="157.5" y="440" text-anchor="middle" font-size="11" fill="#64748b">0.41V</text>
+<line x1="235.0" y1="60" x2="235.0" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="235.0" y="440" text-anchor="middle" font-size="11" fill="#64748b">0.82V</text>
+<line x1="312.5" y1="60" x2="312.5" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="312.5" y="440" text-anchor="middle" font-size="11" fill="#64748b">1.24V</text>
+<line x1="390.0" y1="60" x2="390.0" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="390.0" y="440" text-anchor="middle" font-size="11" fill="#64748b">1.65V</text>
+<line x1="467.5" y1="60" x2="467.5" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="467.5" y="440" text-anchor="middle" font-size="11" fill="#64748b">2.06V</text>
+<line x1="545.0" y1="60" x2="545.0" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="545.0" y="440" text-anchor="middle" font-size="11" fill="#64748b">2.47V</text>
+<line x1="622.5" y1="60" x2="622.5" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="622.5" y="440" text-anchor="middle" font-size="11" fill="#64748b">2.89V</text>
+<line x1="700.0" y1="60" x2="700.0" y2="420" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="700.0" y="440" text-anchor="middle" font-size="11" fill="#64748b">3.30V</text>
+<text x="390.0" y="468" text-anchor="middle" font-size="13" font-weight="600" fill="#1e293b">แรงดันอินพุตอะนาล็อก Analog Input Voltage (V)</text>
+<text x="25" y="240.0" text-anchor="middle" transform="rotate(-90 25 240.0)" font-size="13" font-weight="600" fill="#1e293b">รหัสดิจิทัลเอาต์พุต Digital Output (Code)</text>
+<line x1="80.0" y1="420.0" x2="700.0" y2="60.0" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+<line x1="80.0" y1="420.0" x2="157.5" y2="420.0" stroke="#2563eb" stroke-width="3"/>
+<line x1="157.5" y1="420.0" x2="157.5" y2="368.57142857142856" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="118.75" cy="420.0" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="157.5" y1="368.57142857142856" x2="235.0" y2="368.57142857142856" stroke="#2563eb" stroke-width="3"/>
+<line x1="235.0" y1="368.57142857142856" x2="235.0" y2="317.14285714285717" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="196.25" cy="368.57142857142856" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="235.0" y1="317.14285714285717" x2="312.5" y2="317.14285714285717" stroke="#2563eb" stroke-width="3"/>
+<line x1="312.5" y1="317.14285714285717" x2="312.5" y2="265.7142857142857" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="273.75" cy="317.14285714285717" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="312.5" y1="265.7142857142857" x2="390.0" y2="265.7142857142857" stroke="#2563eb" stroke-width="3"/>
+<line x1="390.0" y1="265.7142857142857" x2="390.0" y2="214.2857142857143" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="351.25" cy="265.7142857142857" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="390.0" y1="214.2857142857143" x2="467.5" y2="214.2857142857143" stroke="#2563eb" stroke-width="3"/>
+<line x1="467.5" y1="214.2857142857143" x2="467.5" y2="162.85714285714283" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="428.75" cy="214.2857142857143" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="467.5" y1="162.85714285714283" x2="545.0" y2="162.85714285714283" stroke="#2563eb" stroke-width="3"/>
+<line x1="545.0" y1="162.85714285714283" x2="545.0" y2="111.42857142857144" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="506.25" cy="162.85714285714283" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="545.0" y1="111.42857142857144" x2="622.5" y2="111.42857142857144" stroke="#2563eb" stroke-width="3"/>
+<line x1="622.5" y1="111.42857142857144" x2="622.5" y2="60.0" stroke="#2563eb" stroke-width="2" stroke-dasharray="2,2"/>
+<circle cx="583.75" cy="111.42857142857144" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<line x1="622.5" y1="60.0" x2="700.0" y2="60.0" stroke="#2563eb" stroke-width="3"/>
+<circle cx="661.25" cy="60.0" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="100" y="75" width="290" height="75" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="115" y1="95" x2="145" y2="95" stroke="#2563eb" stroke-width="3"/>
+<text x="155" y="99" font-size="11" font-weight="600" fill="#1e293b">บันไดขั้น Quantization (3-bit)</text>
+<circle cx="130" cy="117" r="4.5" fill="#ef4444" stroke="#ffffff" stroke-width="1"/>
+<text x="155" y="121" font-size="11" fill="#334155">จุดกึ่งกลางระดับ Quantization Step (Mid-step)</text>
+<line x1="115" y1="137" x2="145" y2="137" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4,4"/>
+<text x="155" y="141" font-size="11" fill="#64748b">เส้นอ้างอิงเชิงเส้นสมบูรณ์ (Ideal Line)</text>
+</svg>

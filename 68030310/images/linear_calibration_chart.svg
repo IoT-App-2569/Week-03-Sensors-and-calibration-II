@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%" style="background:#ffffff; font-family: Segoe UI, Arial, sans-serif;">
+<text x="400.0" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">LDR Linear Calibration Trendline (Scatter Plot)</text>
+<text x="400.0" y="50" text-anchor="middle" font-size="12" fill="#64748b">Student ID: 68030310 | ESP32 ADC 12-bit (GPIO 34) vs Phone Lux Meter</text>
+<rect x="80" y="60" width="670" height="400" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<line x1="80.0" y1="60" x2="80.0" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="80.0" y="480" text-anchor="middle" font-size="11" fill="#64748b">0</text>
+<line x1="161.8070818070818" y1="60" x2="161.8070818070818" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="161.8070818070818" y="480" text-anchor="middle" font-size="11" fill="#64748b">500</text>
+<line x1="243.6141636141636" y1="60" x2="243.6141636141636" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="243.6141636141636" y="480" text-anchor="middle" font-size="11" fill="#64748b">1000</text>
+<line x1="325.42124542124543" y1="60" x2="325.42124542124543" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="325.42124542124543" y="480" text-anchor="middle" font-size="11" fill="#64748b">1500</text>
+<line x1="407.2283272283272" y1="60" x2="407.2283272283272" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="407.2283272283272" y="480" text-anchor="middle" font-size="11" fill="#64748b">2000</text>
+<line x1="489.0354090354091" y1="60" x2="489.0354090354091" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="489.0354090354091" y="480" text-anchor="middle" font-size="11" fill="#64748b">2500</text>
+<line x1="570.8424908424909" y1="60" x2="570.8424908424909" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="570.8424908424909" y="480" text-anchor="middle" font-size="11" fill="#64748b">3000</text>
+<line x1="652.6495726495726" y1="60" x2="652.6495726495726" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="652.6495726495726" y="480" text-anchor="middle" font-size="11" fill="#64748b">3500</text>
+<line x1="734.4566544566544" y1="60" x2="734.4566544566544" y2="460" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="734.4566544566544" y="480" text-anchor="middle" font-size="11" fill="#64748b">4000</text>
+<line x1="80" y1="460.0" x2="750" y2="460.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="464.0" text-anchor="end" font-size="11" fill="#64748b">0</text>
+<line x1="80" y1="406.6666666666667" x2="750" y2="406.6666666666667" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="410.6666666666667" text-anchor="end" font-size="11" fill="#64748b">200</text>
+<line x1="80" y1="353.3333333333333" x2="750" y2="353.3333333333333" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="357.3333333333333" text-anchor="end" font-size="11" fill="#64748b">400</text>
+<line x1="80" y1="300.0" x2="750" y2="300.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="304.0" text-anchor="end" font-size="11" fill="#64748b">600</text>
+<line x1="80" y1="246.66666666666666" x2="750" y2="246.66666666666666" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="250.66666666666666" text-anchor="end" font-size="11" fill="#64748b">800</text>
+<line x1="80" y1="193.33333333333337" x2="750" y2="193.33333333333337" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="197.33333333333337" text-anchor="end" font-size="11" fill="#64748b">1000</text>
+<line x1="80" y1="140.0" x2="750" y2="140.0" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="144.0" text-anchor="end" font-size="11" fill="#64748b">1200</text>
+<line x1="80" y1="86.66666666666669" x2="750" y2="86.66666666666669" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="3,3"/>
+<text x="68" y="90.66666666666669" text-anchor="end" font-size="11" fill="#64748b">1400</text>
+<text x="415.0" y="508" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">ESP32 ADC Raw Value (12-bit, 0 - 4095)</text>
+<text x="25" y="260.0" text-anchor="middle" transform="rotate(-90 25 260.0)" font-size="13" font-weight="600" fill="#334155">Light Intensity (Lux)</text>
+<line x1="80.0" y1="460.0" x2="750.0" y2="133.93919999999997" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6,4"/>
+<circle cx="148.71794871794873" cy="456.8" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="156.71794871794873" y="448.8" font-size="10" font-weight="600" fill="#1e293b">12 lx (420)</text>
+<circle cx="219.07203907203908" cy="448.8" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="227.07203907203908" y="440.8" font-size="10" font-weight="600" fill="#1e293b">42 lx (850)</text>
+<circle cx="305.7875457875458" cy="428.53333333333336" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="313.7875457875458" y="420.53333333333336" font-size="10" font-weight="600" fill="#1e293b">118 lx (1380)</text>
+<circle cx="403.95604395604397" cy="392.0" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="411.95604395604397" y="384.0" font-size="10" font-weight="600" fill="#1e293b">255 lx (1980)</text>
+<circle cx="502.12454212454213" cy="330.6666666666667" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="510.12454212454213" y="322.6666666666667" font-size="10" font-weight="600" fill="#1e293b">485 lx (2580)</text>
+<circle cx="600.2930402930403" cy="235.99999999999997" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="608.2930402930403" y="227.99999999999997" font-size="10" font-weight="600" fill="#1e293b">840 lx (3180)</text>
+<circle cx="682.1001221001221" cy="110.66666666666669" r="6" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+<text x="690.1001221001221" y="102.66666666666669" font-size="10" font-weight="600" fill="#1e293b">1310 lx (3680)</text>
+<rect x="100" y="75" width="340" height="95" rx="6" fill="#ffffff" fill-opacity="0.92" stroke="#cbd5e1" stroke-width="1"/>
+<line x1="115" y1="100" x2="145" y2="100" stroke="#ef4444" stroke-width="2.5" stroke-dasharray="6,4"/>
+<text x="155" y="104" font-size="11" font-weight="600" fill="#b91c1c">Linear Trendline: y = 0.3766x - 319.61</text>
+<text x="155" y="122" font-size="11" font-weight="bold" fill="#334155">R² = 0.8881 (Underfitting at extremes)</text>
+<circle cx="130" cy="145" r="5" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="155" y="149" font-size="11" fill="#334155">Measured Calibration Points (7 points)</text>
+</svg>
