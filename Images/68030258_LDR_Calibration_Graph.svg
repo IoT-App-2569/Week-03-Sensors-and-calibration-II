@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" width="100%" height="100%" style="background:#ffffff; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <!-- Header -->
+  <text x="500.0" y="36" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">LDR Calibration Curve: ADC Raw vs Light Intensity (Lux)</text>
+  <text x="500.0" y="58" text-anchor="middle" font-size="13" fill="#64748b">รหัสนักศึกษา: 68030258 | วงจร Voltage Divider (LDR 5mm + R 10k&#937;) บน ESP32 GPIO34 (ADC1_CH6)</text>
+  <!-- Grid -->
+  <g stroke="#e2e8f0" stroke-width="1">
+    <line x1="100" y1="550.0" x2="940" y2="550.0"/>
+    <line x1="100" y1="497.2" x2="940" y2="497.2"/>
+    <line x1="100" y1="444.4" x2="940" y2="444.4"/>
+    <line x1="100" y1="391.7" x2="940" y2="391.7"/>
+    <line x1="100" y1="338.9" x2="940" y2="338.9"/>
+    <line x1="100" y1="286.1" x2="940" y2="286.1"/>
+    <line x1="100" y1="233.3" x2="940" y2="233.3"/>
+    <line x1="100" y1="180.6" x2="940" y2="180.6"/>
+    <line x1="100" y1="127.8" x2="940" y2="127.8"/>
+    <line x1="100" y1="75.0" x2="940" y2="75.0"/>
+    <line x1="100.0" y1="75" x2="100.0" y2="550"/>
+    <line x1="205.0" y1="75" x2="205.0" y2="550"/>
+    <line x1="310.0" y1="75" x2="310.0" y2="550"/>
+    <line x1="415.0" y1="75" x2="415.0" y2="550"/>
+    <line x1="520.0" y1="75" x2="520.0" y2="550"/>
+    <line x1="625.0" y1="75" x2="625.0" y2="550"/>
+    <line x1="730.0" y1="75" x2="730.0" y2="550"/>
+    <line x1="835.0" y1="75" x2="835.0" y2="550"/>
+    <line x1="940.0" y1="75" x2="940.0" y2="550"/>
+  </g>
+  <!-- Axes -->
+  <rect x="100" y="75" width="840" height="475" fill="none" stroke="#475569" stroke-width="1.8"/>
+  <!-- Y Labels -->
+  <g font-size="11" fill="#475569" text-anchor="end">
+    <text x="90" y="554.0">0</text>
+    <text x="90" y="501.2">200</text>
+    <text x="90" y="448.4">400</text>
+    <text x="90" y="395.7">600</text>
+    <text x="90" y="342.9">800</text>
+    <text x="90" y="290.1">1000</text>
+    <text x="90" y="237.3">1200</text>
+    <text x="90" y="184.6">1400</text>
+    <text x="90" y="131.8">1600</text>
+    <text x="90" y="79.0">1800</text>
+  </g>
+  <!-- X Labels -->
+  <g font-size="11" fill="#475569" text-anchor="middle">
+    <text x="100.0" y="570">0</text>
+    <text x="205.0" y="570">500</text>
+    <text x="310.0" y="570">1000</text>
+    <text x="415.0" y="570">1500</text>
+    <text x="520.0" y="570">2000</text>
+    <text x="625.0" y="570">2500</text>
+    <text x="730.0" y="570">3000</text>
+    <text x="835.0" y="570">3500</text>
+    <text x="940.0" y="570">4000</text>
+  </g>
+  <text x="520.0" y="600" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">ESP32 ADC Raw Value (12-bit: 0 - 4095, ADC1_CH6)</text>
+  <text x="-312.5" y="35" transform="rotate(-90)" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b">Light Intensity (Lux) [Ground Truth Phone Lux Meter]</text>
+  <!-- Linear Fit Trendline -->
+  <line x1="227.0" y1="550.0" x2="919.0" y2="255.1" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="6,5"/>
+  <!-- Polynomial Fit Curve -->
+  <path d="M 152.5,541.4 L 163.0,541.7 L 173.5,541.9 L 184.0,541.9 L 194.5,541.8 L 205.0,541.5 L 215.5,541.0 L 226.0,540.4 L 236.5,539.7 L 247.0,538.8 L 257.5,537.7 L 268.0,536.5 L 278.5,535.1 L 289.0,533.6 L 299.5,532.0 L 310.0,530.1 L 320.5,528.2 L 331.0,526.0 L 341.5,523.7 L 352.0,521.3 L 362.5,518.7 L 373.0,516.0 L 383.5,513.1 L 394.0,510.0 L 404.5,506.8 L 415.0,503.5 L 425.5,500.0 L 436.0,496.3 L 446.5,492.5 L 457.0,488.5 L 467.5,484.4 L 478.0,480.1 L 488.5,475.7 L 499.0,471.1 L 509.5,466.4 L 520.0,461.5 L 530.5,456.4 L 541.0,451.2 L 551.5,445.9 L 562.0,440.4 L 572.5,434.7 L 583.0,428.9 L 593.5,423.0 L 604.0,416.8 L 614.5,410.6 L 625.0,404.2 L 635.5,397.6 L 646.0,390.8 L 656.5,384.0 L 667.0,376.9 L 677.5,369.7 L 688.0,362.4 L 698.5,354.9 L 709.0,347.3 L 719.5,339.5 L 730.0,331.5 L 740.5,323.4 L 751.0,315.1 L 761.5,306.7 L 772.0,298.1 L 782.5,289.4 L 793.0,280.5 L 803.5,271.5 L 814.0,262.3 L 824.5,253.0 L 835.0,243.5 L 845.5,233.9 L 856.0,224.1 L 866.5,214.1 L 877.0,204.0 L 887.5,193.8 L 898.0,183.4 L 908.5,172.8 L 919.0,162.1" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+  <!-- Data Points -->
+  <g fill="#f97316" stroke="#9a3412" stroke-width="2">
+    <circle cx="167.2" cy="547.9" r="5.5"/>
+    <circle cx="207.1" cy="542.6" r="5.5"/>
+    <circle cx="286.9" cy="527.6" r="5.5"/>
+    <circle cx="383.5" cy="503.8" r="5.5"/>
+    <circle cx="509.5" cy="468.2" r="5.5"/>
+    <circle cx="656.5" cy="396.9" r="5.5"/>
+    <circle cx="824.5" cy="246.5" r="5.5"/>
+  </g>
+  <!-- Data Point Labels -->
+  <g font-size="10" font-weight="bold" fill="#0f172a">
+    <text x="175.2" y="537.9" text-anchor="start">P1 (320, 8)</text>
+    <text x="215.1" y="532.6" text-anchor="start">P2 (510, 28)</text>
+    <text x="294.9" y="517.6" text-anchor="start">P3 (890, 85)</text>
+    <text x="391.5" y="493.8" text-anchor="start">P4 (1350, 175)</text>
+    <text x="517.5" y="458.2" text-anchor="start">P5 (1950, 310)</text>
+    <text x="664.5" y="386.9" text-anchor="start">P6 (2650, 580)</text>
+    <text x="814.5" y="236.5" text-anchor="end">P7 (3450, 1150)</text>
+  </g>
+  <!-- Legend Box -->
+  <g filter="url(#shadow)">
+    <rect x="125" y="90" width="420" height="150" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.2"/>
+  </g>
+  <text x="140" y="114" font-size="13" font-weight="bold" fill="#0f172a">แบบจำลองสมการเทียบมาตรฐาน (Calibration Models)</text>
+  <circle cx="150" cy="138" r="5" fill="#f97316" stroke="#9a3412" stroke-width="1.5"/>
+  <text x="165" y="142" font-size="11.5" fill="#334155">ข้อมูลที่วัดได้จริง 7 สภาพแสง (Measured Data Points)</text>
+  <line x1="143" y1="168" x2="157" y2="168" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="4,4"/>
+  <text x="165" y="165" font-size="11.5" font-weight="bold" fill="#dc2626">Linear Trendline:</text>
+  <text x="265" y="165" font-size="11.5" fill="#1e293b">Lux = 0.3392 &#215; ADC + (-205.08)</text>
+  <text x="265" y="182" font-size="11" font-weight="bold" fill="#b91c1c">R&#178; = 0.9120</text>
+  <line x1="143" y1="208" x2="157" y2="208" stroke="#2563eb" stroke-width="2.5"/>
+  <text x="165" y="206" font-size="11.5" font-weight="bold" fill="#2563eb">Polynomial (Degree 2):</text>
+  <text x="165" y="222" font-size="11" fill="#1e293b">Lux = 0.0001162 &#215; ADC&#178; - 0.0884 &#215; ADC + 47.47</text>
+  <text x="165" y="238" font-size="11" font-weight="bold" fill="#1d4ed8">R&#178; = 0.9946 (เหมาะสมสูงสุด: สอดคล้องกับพฤติกรรม LDR)</text>
+</svg>
