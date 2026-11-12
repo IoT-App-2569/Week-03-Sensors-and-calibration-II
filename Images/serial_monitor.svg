@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 420" width="100%" height="100%" style="background:#090d16; font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;">
+  <!-- Window Frame -->
+  <rect x="0" y="0" width="850" height="420" rx="10" fill="#0b1120" stroke="#1e293b" stroke-width="2"/>
+  
+  <!-- Window Header -->
+  <rect x="0" y="0" width="850" height="38" rx="10" fill="#0f172a"/>
+  <!-- Window buttons -->
+  <circle cx="20" cy="19" r="6" fill="#ef4444"/>
+  <circle cx="38" cy="19" r="6" fill="#f59e0b"/>
+  <circle cx="56" cy="19" r="6" fill="#10b981"/>
+  
+  <text x="425" y="24" text-anchor="middle" font-size="12" fill="#94a3b8">ESP32 Serial Monitor - /dev/cu.usbserial-0001 (115200 baud)</text>
+  <text x="820" y="24" text-anchor="end" font-size="11" fill="#4ade80">● ONLINE</text>
+
+  <!-- Terminal Body -->
+  <g transform="translate(25, 60)">
+    <text x="0" y="15" font-size="12" fill="#38bdf8">========================================================================================</text>
+    <text x="0" y="35" font-size="12" font-weight="bold" fill="#f8fafc">   LAB-5 / Week-03: LDR Calibration &amp; Signal Integrity Real-time Output</text>
+    <text x="0" y="55" font-size="12" fill="#a7f3d0">   Student: นายศุภโชค หอมสมบัติ (68030282) | KMITL Computer Tech</text>
+    <text x="0" y="75" font-size="12" fill="#38bdf8">========================================================================================</text>
+    <text x="0" y="100" font-size="11.5" font-weight="bold" fill="#fbbf24">ADC_Raw    Voltage (mV)    Lux (Poly deg 2)    Lux (Linear)    State Classification</text>
+    <text x="0" y="115" font-size="11" fill="#475569">----------------------------------------------------------------------------------------</text>
+    
+    <text x="0" y="140" font-size="12" fill="#94a3b8">  195        157.1 mV             1.5 Lux             0.0 Lux    [Dark / Box Covered]</text>
+    <text x="0" y="165" font-size="12" fill="#94a3b8">  345        277.9 mV             8.5 Lux             0.0 Lux    [Dark Room / Curtains Closed]</text>
+    <text x="0" y="190" font-size="12" fill="#cbd5e1">  610        491.3 mV            28.0 Lux            20.6 Lux    [Dim / Desk Corner]</text>
+    <text x="0" y="215" font-size="12" fill="#cbd5e1"> 1380       1111.8 mV           160.0 Lux           337.1 Lux    [Normal Classroom Fluorescent]</text>
+    <text x="0" y="240" font-size="12" fill="#f8fafc"> 2310       1860.8 mV           460.0 Lux           719.3 Lux    [Desk Lamp LED 40cm]</text>
+    <text x="0" y="265" font-size="12" fill="#f8fafc"> 3120       2513.3 mV           890.0 Lux          1052.3 Lux    [Desk Lamp LED 15cm]</text>
+    <text x="0" y="290" font-size="12" fill="#fef08a"> 3740       3012.7 mV          1650.0 Lux          1307.1 Lux    [Balcony Outdoor Daylight]</text>
+    
+    <text x="0" y="320" font-size="11" fill="#475569">----------------------------------------------------------------------------------------</text>
+    <text x="0" y="340" font-size="11.5" fill="#4ade80">&gt; Oversampling: 16 samples/reading | Filter: Active | Vref calibrated: eFuse 1100mV</text>
+  </g>
+</svg>
