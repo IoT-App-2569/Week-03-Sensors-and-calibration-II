@@ -26,8 +26,8 @@ static const char *TAG = "ldr_lux";
 
 static float adc_to_lux(int adc)
 {
-    // สมการจากการสอบเทียบแบบ Polynomial ดีกรี 2 (R² = 0.9909)
-    float lux = (0.000148431f * (float)adc * (float)adc) - (0.170327f * (float)adc) + 61.6728f;
+    // สมการจากการสอบเทียบแบบ Polynomial ดีกรี 2 (R² = 0.9886)
+    float lux = (0.000164183f * (float)adc * (float)adc) - (0.211775f * (float)adc) + 72.1968f;
     if (lux < 0.0f) {
         lux = 0.0f;
     }
