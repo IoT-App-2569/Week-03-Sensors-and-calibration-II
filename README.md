@@ -14,3 +14,7 @@
 ## ใบงาน
 
 ### [Week-03-Lab-sheet-03-LDR-and-calibration](Week-03-Lab-sheet-03-LDR-and-calibration.md)
+
+### [ผลการทดลอง (Excel, กราฟ, สคริปต์)](Lab-Results/README.md)
+
+### [โค้ด ESP32 — LDR_Calibration](LDR_Calibration/main/main.c)
